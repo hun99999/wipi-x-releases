@@ -1,0 +1,13 @@
+.DS_Store
+.env
+.env.*
+*.apk
+*.aab
+*.wipix
+*.wipixsave
+*.jar
+*.zip
+*.alz
+*.jks
+*.keystore
+*.log

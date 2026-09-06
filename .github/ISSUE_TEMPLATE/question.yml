@@ -1,0 +1,13 @@
+name: 사용 질문 / Usage question
+description: 설치 안내, 사용 방법 또는 프로젝트에 대해 질문해 주세요.
+title: "[Question] "
+body:
+  - type: markdown
+    attributes:
+      value: "앱은 Google Play에서만 배포하며 현재 첫 출시 준비 중입니다. 이슈는 공개되므로 개인정보와 게임·저장 파일은 첨부하지 마세요. / App distribution is Google Play only; the first release is in preparation. Issues are public."
+  - type: textarea
+    id: question
+    attributes:
+      label: 질문 / Question
+    validations:
+      required: true

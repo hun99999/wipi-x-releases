@@ -1,0 +1,52 @@
+name: 실행 문제 / Bug report
+description: 실행·입력·표시·저장 등 재현 가능한 문제를 알려 주세요.
+title: "[Bug] "
+body:
+  - type: markdown
+    attributes:
+      value: "이슈는 공개됩니다. 개인정보, 게임 원본, 저장 파일, 비공개 다운로드 링크는 첨부하지 마세요. / Issues are public. Do not attach personal information, game files, saves, or private links."
+  - type: input
+    id: app-version
+    attributes:
+      label: WIPI-X 버전 / App version
+      placeholder: 앱에 표시되는 정확한 버전
+    validations:
+      required: true
+  - type: input
+    id: device
+    attributes:
+      label: 기기와 Android 버전 / Device and Android version
+    validations:
+      required: true
+  - type: input
+    id: game
+    attributes:
+      label: 게임 이름 / Game title
+      description: 게임 실행과 무관한 문제라면 해당 없음으로 적어 주세요.
+    validations:
+      required: true
+  - type: dropdown
+    id: carrier
+    attributes:
+      label: 통신사 판본 / Carrier edition
+      options:
+        - KTF
+        - LGT
+        - SKT
+        - 모름 / Unknown
+        - 해당 없음 / Not applicable
+    validations:
+      required: true
+  - type: textarea
+    id: steps
+    attributes:
+      label: 재현 순서 / Steps to reproduce
+      description: 어떤 화면에서 어떤 조작을 했는지 적어 주세요.
+    validations:
+      required: true
+  - type: textarea
+    id: result
+    attributes:
+      label: 예상 결과와 실제 결과 / Expected and actual result
+    validations:
+      required: true

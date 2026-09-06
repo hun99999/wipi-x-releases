@@ -1,0 +1,16 @@
+name: 개선 제안 / Suggestion
+description: 사용하면서 필요한 기능이나 개선할 점을 알려 주세요.
+title: "[Suggestion] "
+body:
+  - type: textarea
+    id: problem
+    attributes:
+      label: 어떤 상황에서 필요했나요? / What problem would this solve?
+    validations:
+      required: true
+  - type: textarea
+    id: suggestion
+    attributes:
+      label: 제안하는 동작 / Suggested behavior
+    validations:
+      required: true

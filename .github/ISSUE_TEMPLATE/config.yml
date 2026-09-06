@@ -1,0 +1,8 @@
+blank_issues_enabled: false
+contact_links:
+  - name: 공식 홈페이지 / Official website
+    url: https://wipix.valiostudio.com/
+    about: 프로젝트 소개, 게임 카탈로그와 Google Play 출시 안내
+  - name: 시작 안내 / Getting started
+    url: https://github.com/hun99999/wipi-x-releases/blob/main/docs/GETTING_STARTED.md
+    about: 게임 가져오기와 저장 백업 방법
