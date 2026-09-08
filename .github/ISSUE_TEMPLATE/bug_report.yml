@@ -4,7 +4,7 @@ title: "[Bug] "
 body:
   - type: markdown
     attributes:
-      value: "이슈는 공개됩니다. 개인정보, 게임 원본, 저장 파일, 비공개 다운로드 링크는 첨부하지 마세요. / Issues are public. Do not attach personal information, game files, saves, or private links."
+      value: "이슈는 공개됩니다. 개인정보, 게임 원본, 저장 파일, 비공개 다운로드 링크는 첨부하지 마세요. 스크린샷의 게임 이름·아이콘·플레이 영역과 개인정보는 가려 주세요. / Issues are public. Do not attach personal information, game files, saves, or private links. Blur or pixelate game titles, icons, gameplay, and personal information in screenshots."
   - type: input
     id: app-version
     attributes:
