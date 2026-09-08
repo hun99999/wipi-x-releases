@@ -4,6 +4,43 @@
 
 Google Play에 배포된 버전의 변경사항을 최신순으로 기록합니다. 알파·베타 기록도 정식 출시 후 계속 보존합니다.
 
+## 0.1.2 — 소리와 실행 성능 개선
+
+일부 게임에서 소리가 나오지 않던 문제를 수정하고, 게임 진행 중 속도 저하와 프레임
+끊김을 줄였습니다. 장시간 실행할 때 임시 데이터가 계속 쌓이던 문제도 개선했습니다.
+
+- **배포 채널:** Google Play 비공개 테스트(Alpha)
+- **앱 버전 / 빌드 번호:** 0.1.2 / 3
+- **배포 확인일:** 2026-09-09 (한국 시간)
+
+### 개선 및 수정
+
+- **소리 재생:** 일부 LGT 게임에서 배경음과 효과음이 나오지 않던 문제를 수정했습니다.
+- **실행 성능:** 게임 진행 중 불필요한 처리 부담을 줄여 속도 저하와 프레임 끊김을 완화했습니다.
+- **장시간 실행:** 사용이 끝난 임시 문자열 데이터를 회수해 메모리 누적으로 게임이 종료되는 문제를 개선했습니다.
+
+### 업데이트와 문제 제보
+
+업데이트는 기존 앱을 삭제하지 않고 같은 Google 계정의 Google Play에서 설치해 주세요.
+새 참여자는 [테스트 참여 안내](https://github.com/hun99999/wipi-x-releases/blob/main/docs/TESTING.md)를 따라 주세요.
+
+[문제 제보](https://github.com/hun99999/wipi-x-releases/issues/new/choose)에는 기기 모델,
+Android 버전, WIPI-X 버전, 게임·통신사와 재현 순서를 적어 주세요.
+
+### English
+
+WIPI-X 0.1.2 (build 3) fixes missing audio in some games, reduces runtime overhead that
+caused slowdowns and uneven frame delivery, and improves memory use during extended play.
+This Google Play closed-test (Alpha) update was confirmed available on September 9, 2026 (Korea time).
+
+- **Audio:** Fixed missing background music and sound effects in some LGT games.
+- **Performance:** Reduced unnecessary processing during gameplay to ease slowdowns and frame stutter.
+- **Extended play:** Reclaim temporary string data that is no longer in use to reduce game exits caused by memory accumulation.
+
+Install updates through Google Play using the same account, without uninstalling the existing app.
+New testers can follow the [testing guide](https://github.com/hun99999/wipi-x-releases/blob/main/docs/TESTING.md#english).
+See the [support guide](https://github.com/hun99999/wipi-x-releases/blob/main/SUPPORT.md) to report issues.
+
 ## 0.1.1 — 실행 안정성과 성능 개선
 
 게임 중 연속으로 키를 누르거나 효과가 표시될 때 화면이 끊기는 현상을 줄였습니다.
