@@ -10,6 +10,18 @@ WIPI-X는 KTF·LGT WIPI 게임 파일을 Android에서 실행하는 오프라인
 
 [공식 홈페이지](https://wipix.valiostudio.com/) · [테스트 참여 안내](docs/TESTING.md) · [릴리즈 노트](https://github.com/hun99999/wipi-x-releases/releases) · [게임 카탈로그](https://wipix.valiostudio.com/ko/games/) · [문제 제보](https://github.com/hun99999/wipi-x-releases/issues/new/choose)
 
+> **최신 업데이트 · 0.1.1 Alpha** — [실행 안정성과 성능 개선 패치노트](https://github.com/hun99999/wipi-x-releases/releases/tag/v0.1.1) · [전체 릴리즈 보기](https://github.com/hun99999/wipi-x-releases/releases)
+
+## 플레이 화면
+
+익숙한 피쳐폰 키패드로 Android에서 플레이하는 모습입니다. 게임 영역은 모자이크 처리했습니다. 앱에는 게임 파일이 포함되어 있지 않습니다.
+
+<p align="center">
+  <img src="assets/screenshots/gameplay-01.jpg" alt="게임 영역을 모자이크한 WIPI-X 세로 플레이 화면 1" width="220">
+  <img src="assets/screenshots/gameplay-02.jpg" alt="게임 영역을 모자이크한 WIPI-X 세로 플레이 화면 2" width="220">
+  <img src="assets/screenshots/gameplay-03.jpg" alt="게임 영역을 모자이크한 WIPI-X 세로 플레이 화면 3" width="220">
+</p>
+
 ## 앱 받기
 
 **WIPI-X 앱의 공식 설치와 업데이트는 Google Play에서만 제공합니다.** 비공개 테스트 **0.1.1 (Alpha)**를 제공합니다. 2026년 9월 9일 기준, 테스트 참여자가 Google Play에서 설치할 수 있습니다.
@@ -29,7 +41,7 @@ WIPI-X는 KTF·LGT WIPI 게임 파일을 Android에서 실행하는 오프라인
 
 로그인·광고·인앱 결제 없이 동작합니다. 기기와 게임에 따라 실행·저장 범위와 배속 성능은 다를 수 있습니다. [0.1.1 변경 안내](docs/UPDATES.md)에서 이번 테스트 버전의 내용을 확인할 수 있습니다.
 
-## 앱 화면
+## 라이브러리와 설정
 
 0.1.0 테스트 앱을 실제 Android 태블릿에서 촬영한 화면입니다. 게임을 가져오기 전의 라이브러리와 설정·키매핑 화면을 사용해 게임 이름, 게임 아이콘, 플레이 내용을 노출하지 않았습니다.
 
@@ -80,7 +92,7 @@ WIPI-X is an offline Android emulator for classic KTF and LGT WIPI feature-phone
 
 The app is distributed **exclusively through Google Play**. The **0.1.1 closed test (Alpha)** is available to eligible testers as of September 9, 2026. Join the testers group, opt in using the same Google account, and install through Google Play. See the [testing guide](docs/TESTING.md#english) and [release notes](https://github.com/hun99999/wipi-x-releases/releases).
 
-Features include folder scanning, classic and flat keypads, portrait and landscape layouts, Korean Cheonjiin and multi-tap English input, configurable gamepad mappings, light and dark themes, playback speed settings, and per-game save export/import. The screenshots above are real test-app captures without game titles, game icons, or gameplay content.
+Features include folder scanning, classic and flat keypads, portrait and landscape layouts, Korean Cheonjiin and multi-tap English input, configurable gamepad mappings, light and dark themes, playback speed settings, and per-game save export/import. The first three images are user-provided gameplay screenshots with the game areas mosaicked. The library, settings and gamepad screenshots were captured from the 0.1.0 test app on an Android tablet.
 
 This repository contains project information, usage guides, compatibility notes, and user support. It does not distribute app source code, APK/AAB packages, or game files. The initial roster contains **31 entries (18 KTF and 13 LGT)**, including Rhythm Star, 2010 Pro Baseball, and Tempest. All await final compatibility verification, and the roster will expand as more games are checked.
 
