@@ -4,6 +4,61 @@
 
 Google Play에 배포된 버전의 변경사항을 최신순으로 기록합니다. 알파·베타 기록도 정식 출시 후 계속 보존합니다.
 
+## 0.1.1 — 실행 안정성과 성능 개선
+
+게임 중 연속으로 키를 누르거나 효과가 표시될 때 화면이 끊기는 현상을 줄였습니다.
+이름 변경·캐릭터 생성 중 게임이 종료되는 문제와, 게임을 종료한 뒤에도 저장 파일을
+내보낼 수 없던 문제를 수정했습니다.
+
+- **배포 채널:** Google Play 비공개 테스트(Alpha)
+- **앱 버전 / 빌드 번호:** 0.1.1 / 2
+- **배포 확인일:** 2026-09-09 (한국 시간)
+- **심사 요청일:** 2026-09-09 (한국 시간)
+
+### 개선 및 수정
+
+- **프레임과 실행 성능:** 리듬스타(KTF) 등에서 연속 키 입력과 효과 처리 중 화면 갱신이
+  지연되는 현상을 개선했습니다.
+- **이름 변경:** 액션퍼즐패밀리1(KTF)의 결과 화면에서 기존 이름 사용 여부에 ‘아니오’를
+  선택해 이름을 바꾸려 하면 게임이 종료되는 문제를 수정했습니다.
+- **캐릭터 생성:** 제노니아2(LGT)에서 새 캐릭터를 생성하는 도중 게임이 종료되는 문제를
+  수정했습니다.
+- **재실행 안정성:** 이전 실행의 오류가 다음 게임 실행에 영향을 주는 일부 경로를 수정했습니다.
+- **저장 백업:** 게임을 정상 종료한 뒤에도 ‘게임을 정상 종료하고 다른 파일 작업이 끝난 뒤
+  저장 관리를 이용해 주세요’라는 안내와 함께 내보내기가 차단되는 문제를 수정했습니다.
+
+### 업데이트와 문제 제보
+
+기존 테스터는 같은 Google 계정의 Google Play에서 0.1.1로 업데이트할 수 있습니다. 업데이트를 위해 기존 앱을 삭제할 필요는 없습니다. 새 참여자는
+[테스트 참여 안내](https://github.com/hun99999/wipi-x-releases/blob/main/docs/TESTING.md)를
+따라 주세요. 앱을 삭제하거나 데이터를 지우기 전에 필요한 저장을 앱 바깥에 백업해 주세요.
+
+[문제 제보](https://github.com/hun99999/wipi-x-releases/issues/new/choose)에는 기기 모델,
+Android 버전, WIPI-X 버전, 게임·통신사와 재현 순서를 적어 주세요. 게임 원본·저장 파일·
+개인정보는 공개 이슈에 첨부하지 마세요.
+
+### English
+
+WIPI-X 0.1.1 (build 2) reduces delayed frame updates during rapid input and visual effects,
+fixes crashes during name editing and character creation, and fixes save export after a normal
+game exit. This Google Play closed-test (Alpha) update was confirmed available on September 9,
+2026 (Korea time), the same date the review request was submitted.
+
+- **Performance:** Improved frame delivery during rapid input and effects in KTF games,
+  including Rhythm Star.
+- **Name editing:** Fixed a crash when selecting “No” to change the result name in
+  Action Puzzle Family 1 (KTF).
+- **Character creation:** Fixed a crash during new character creation in Zenonia 2 (LGT).
+- **Restart stability:** Fixed some paths where an earlier error affected the next game launch.
+- **Save backup:** Fixed save export being blocked by a message asking users to exit the game
+  and finish other file operations, even after the game had already exited normally.
+
+Existing testers can update to 0.1.1 through Google Play using the same account.
+There is no need to uninstall the existing app to update. New testers can follow
+the [testing guide](https://github.com/hun99999/wipi-x-releases/blob/main/docs/TESTING.md#english).
+Back up important saves outside the app before uninstalling or clearing app data. See the
+[support guide](https://github.com/hun99999/wipi-x-releases/blob/main/SUPPORT.md) to report issues.
+
 ## 0.1.0 — 첫 알파 테스트
 
 WIPI-X의 첫 비공개 테스트를 시작했습니다. KTF·LGT WIPI 게임을 Android에서 실행하고, 화면 키패드와 게임패드로 조작할 수 있습니다.

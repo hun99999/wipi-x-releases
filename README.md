@@ -12,7 +12,7 @@ WIPI-X는 KTF·LGT WIPI 게임 파일을 Android에서 실행하는 오프라인
 
 ## 앱 받기
 
-**WIPI-X 앱의 공식 설치와 업데이트는 Google Play에서만 제공합니다.** 첫 비공개 테스트 **0.1.0 (Alpha)**를 시작했습니다. 2026년 9월 9일 기준, 테스트 참여자가 Google Play에서 설치할 수 있습니다.
+**WIPI-X 앱의 공식 설치와 업데이트는 Google Play에서만 제공합니다.** 비공개 테스트 **0.1.1 (Alpha)**를 제공합니다. 2026년 9월 9일 기준, 테스트 참여자가 Google Play에서 설치할 수 있습니다.
 
 [WIPI-X 테스트 그룹](https://groups.google.com/g/wipi-x-testers/about)에 가입한 뒤, **같은 Google 계정**으로 [Google Play 테스트 참여](https://play.google.com/apps/testing/com.valiostudio.wipix)를 신청하고 설치하세요. [참여 순서와 대상 기기](docs/TESTING.md), [버전별 릴리즈 노트](https://github.com/hun99999/wipi-x-releases/releases)를 확인할 수 있습니다.
 
@@ -27,7 +27,7 @@ WIPI-X는 KTF·LGT WIPI 게임 파일을 Android에서 실행하는 오프라인
 - **라이브러리:** 검색·통신사 필터·정렬·즐겨찾기로 게임을 관리합니다.
 - **저장 백업:** 게임 안에서 저장하고 정상 종료한 뒤, 게임별 저장을 내보내거나 같은 게임에 다시 가져옵니다.
 
-로그인·광고·인앱 결제 없이 동작합니다. 기기와 게임에 따라 실행·저장 범위와 배속 성능은 다를 수 있습니다. [0.1.0 변경 안내](docs/UPDATES.md)에서 이번 테스트 버전의 내용을 확인할 수 있습니다.
+로그인·광고·인앱 결제 없이 동작합니다. 기기와 게임에 따라 실행·저장 범위와 배속 성능은 다를 수 있습니다. [0.1.1 변경 안내](docs/UPDATES.md)에서 이번 테스트 버전의 내용을 확인할 수 있습니다.
 
 ## 앱 화면
 
@@ -78,7 +78,7 @@ WIPI-X는 KTF·LGT WIPI 게임 파일을 Android에서 실행하는 오프라인
 
 WIPI-X is an offline Android emulator for classic KTF and LGT WIPI feature-phone games, made by Valio Studio. It requires Android 8.0 or later and processes game files and saves on the device, without login, ads, or in-app purchases.
 
-The app is distributed **exclusively through Google Play**. The first **0.1.0 closed test (Alpha)** is available to eligible testers as of September 9, 2026. Join the testers group, opt in using the same Google account, and install through Google Play. See the [testing guide](docs/TESTING.md#english) and [release notes](https://github.com/hun99999/wipi-x-releases/releases).
+The app is distributed **exclusively through Google Play**. The **0.1.1 closed test (Alpha)** is available to eligible testers as of September 9, 2026. Join the testers group, opt in using the same Google account, and install through Google Play. See the [testing guide](docs/TESTING.md#english) and [release notes](https://github.com/hun99999/wipi-x-releases/releases).
 
 Features include folder scanning, classic and flat keypads, portrait and landscape layouts, Korean Cheonjiin and multi-tap English input, configurable gamepad mappings, light and dark themes, playback speed settings, and per-game save export/import. The screenshots above are real test-app captures without game titles, game icons, or gameplay content.
 
