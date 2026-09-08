@@ -8,13 +8,13 @@
 
 WIPI-X는 KTF·LGT WIPI 게임 파일을 Android에서 실행하는 오프라인 피쳐폰 게임 에뮬레이터입니다. Valio Studio가 만들고 있습니다. Android 8.0 이상에서 사용하며, 게임 파일과 저장 데이터는 기기 안에서 처리합니다.
 
-[공식 홈페이지](https://wipix.valiostudio.com/) · [테스트 참여 안내](docs/TESTING.md) · [게임 카탈로그](https://wipix.valiostudio.com/ko/games/) · [문제 제보](https://github.com/hun99999/wipi-x-releases/issues/new/choose)
+[공식 홈페이지](https://wipix.valiostudio.com/) · [테스트 참여 안내](docs/TESTING.md) · [릴리즈 노트](https://github.com/hun99999/wipi-x-releases/releases) · [게임 카탈로그](https://wipix.valiostudio.com/ko/games/) · [문제 제보](https://github.com/hun99999/wipi-x-releases/issues/new/choose)
 
 ## 앱 받기
 
-**WIPI-X 앱의 공식 설치와 업데이트는 Google Play에서만 제공합니다.** 2026년 9월 8일, 첫 비공개 테스트 버전 **0.1.0**의 심사를 요청했습니다. 심사 요청 접수를 확인했으며, 테스트 배포와 실제 설치 가능 여부는 아직 확인 전입니다.
+**WIPI-X 앱의 공식 설치와 업데이트는 Google Play에서만 제공합니다.** 첫 비공개 테스트 **0.1.0 (Alpha)**를 시작했습니다. 2026년 9월 9일 기준, 테스트 참여자가 Google Play에서 설치할 수 있습니다.
 
-[WIPI-X 테스트 그룹](https://groups.google.com/g/wipi-x-testers/about)에 먼저 가입할 수 있습니다. 테스트 링크가 활성화되면 같은 Google 계정으로 Play 테스트 참여 후 설치하는 방식입니다. [참여 순서와 대상 기기](docs/TESTING.md), [최신 앱 출시 안내](https://wipix.valiostudio.com/ko/download/)를 확인하세요.
+[WIPI-X 테스트 그룹](https://groups.google.com/g/wipi-x-testers/about)에 가입한 뒤, **같은 Google 계정**으로 [Google Play 테스트 참여](https://play.google.com/apps/testing/com.valiostudio.wipix)를 신청하고 설치하세요. [참여 순서와 대상 기기](docs/TESTING.md), [버전별 릴리즈 노트](https://github.com/hun99999/wipi-x-releases/releases)를 확인할 수 있습니다.
 
 이 GitHub는 프로젝트 소개, 사용 안내, 호환 현황과 사용자 지원을 위한 공간입니다. 앱 소스코드, APK/AAB 설치 파일 및 게임 파일은 게시하지 않습니다.
 
@@ -54,7 +54,7 @@ WIPI-X는 KTF·LGT WIPI 게임 파일을 Android에서 실행하는 오프라인
 
 ## 처음 시작하기
 
-1. [테스트 참여 안내](docs/TESTING.md)를 확인하고, 테스트 배포가 활성화되면 Google Play에서 앱을 설치합니다.
+1. [테스트 참여 안내](docs/TESTING.md)에 따라 그룹 가입과 Play 테스트 참여를 마친 뒤 Google Play에서 앱을 설치합니다.
 2. 이용 권한이 있는 게임 파일을 Android의 게임 전용 폴더에 준비합니다. **게임 한 개짜리 ZIP은 압축을 풀지 않고 그대로 사용합니다.**
 3. WIPI-X의 **게임 가져오기** 또는 **폴더 지정 → 스캔**으로 추가하고 게임을 선택합니다.
 
@@ -78,7 +78,7 @@ WIPI-X는 KTF·LGT WIPI 게임 파일을 Android에서 실행하는 오프라인
 
 WIPI-X is an offline Android emulator for classic KTF and LGT WIPI feature-phone games, made by Valio Studio. It requires Android 8.0 or later and processes game files and saves on the device, without login, ads, or in-app purchases.
 
-The app is distributed **exclusively through Google Play**. Version 0.1.0 was submitted for closed-test review on September 8, 2026; test availability and installation have not yet been verified. See the [testing guide](docs/TESTING.md#english) and [website](https://wipix.valiostudio.com/en/download/) for the participation flow.
+The app is distributed **exclusively through Google Play**. The first **0.1.0 closed test (Alpha)** is available to eligible testers as of September 9, 2026. Join the testers group, opt in using the same Google account, and install through Google Play. See the [testing guide](docs/TESTING.md#english) and [release notes](https://github.com/hun99999/wipi-x-releases/releases).
 
 Features include folder scanning, classic and flat keypads, portrait and landscape layouts, Korean Cheonjiin and multi-tap English input, configurable gamepad mappings, light and dark themes, playback speed settings, and per-game save export/import. The screenshots above are real test-app captures without game titles, game icons, or gameplay content.
 

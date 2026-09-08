@@ -20,6 +20,6 @@
 
 Use [Issues](https://github.com/hun99999/wipi-x-releases/issues/new/choose) for bugs, suggestions, and usage questions. Include the device model, Android version, WIPI-X version, game title and carrier edition, reproduction steps, and expected versus actual behavior.
 
-Issues are public. Do not attach personal or account information, game files, save files, or private download links. App installation and updates are available only through Google Play after launch.
+Issues are public. Do not attach personal or account information, game files, save files, or private download links. App installation and updates are available only through Google Play. Follow the [testing guide](docs/TESTING.md#english) to join the current closed test.
 
 Blur or pixelate game titles, game icons, gameplay, and personal information before attaching screenshots. See the [testing guide](docs/TESTING.md#english) for closed-test participation. For private questions, contact [wipix@valiostudio.com](mailto:wipix@valiostudio.com).

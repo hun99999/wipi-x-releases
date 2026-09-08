@@ -1,16 +1,16 @@
 # WIPI-X 비공개 테스트 참여
 
-[프로젝트 홈](../README.md) · [앱 출시 안내](https://wipix.valiostudio.com/ko/download/) · [처음 사용하기](GETTING_STARTED.md)
+[프로젝트 홈](../README.md) · [릴리즈 노트](https://github.com/hun99999/wipi-x-releases/releases) · [처음 사용하기](GETTING_STARTED.md)
 
-2026년 9월 8일 기준, **0.1.0 첫 비공개 테스트의 심사 요청을 접수했습니다.** 테스트 배포와 실제 설치 가능 여부는 아직 확인 전입니다. 그룹에 먼저 가입할 수 있으며 앱 설치는 Play 테스트가 활성화된 뒤 가능합니다.
+**0.1.0 첫 비공개 테스트(Alpha)를 시작했습니다.** 2026년 9월 9일 기준, 아래 참여 절차를 마친 테스트 대상 사용자가 Google Play에서 설치할 수 있습니다.
 
 ## 참여 순서
 
 1. Google Play에서 사용할 계정으로 [WIPI-X 테스트 그룹](https://groups.google.com/g/wipi-x-testers/about)에 로그인하고 가입합니다.
-2. 심사 승인과 테스트 링크 활성화 후, **같은 Google 계정**으로 [Google Play 테스트 참여](https://play.google.com/apps/testing/com.valiostudio.wipix)를 신청합니다.
+2. **같은 Google 계정**으로 [Google Play 테스트 참여](https://play.google.com/apps/testing/com.valiostudio.wipix)를 신청합니다.
 3. 참여 페이지가 제공하는 Google Play 설치 경로로 WIPI-X를 설치합니다.
 
-그룹 가입과 Play 테스트 참여는 별도 단계입니다. 테스트 페이지가 열리지 않거나 설치 버튼이 없다면 먼저 배포 상태와 두 서비스의 로그인 계정이 같은지 확인하세요. 최신 안내는 [공식 홈페이지](https://wipix.valiostudio.com/ko/download/)에서 확인할 수 있습니다.
+그룹 가입과 Play 테스트 참여는 별도 단계입니다. 테스트 페이지가 열리지 않거나 설치 버튼이 없다면 그룹 가입·Play 참여 여부와 두 서비스의 로그인 계정이 같은지 확인하세요. 최신 버전과 배포 상태는 [릴리즈 노트](https://github.com/hun99999/wipi-x-releases/releases), 참여 안내는 [공식 홈페이지](https://wipix.valiostudio.com/ko/download/)에서 확인할 수 있습니다.
 
 ## 첫 테스트 대상
 
@@ -23,10 +23,10 @@
 
 ## English
 
-The first **0.1.0 closed test was submitted for review on September 8, 2026**. Test distribution and installation availability have not yet been verified. You may join the group before the test becomes available.
+The first **0.1.0 closed test (Alpha)** is available to eligible testers as of September 9, 2026. Complete the group membership and Play opt-in steps below before installing through Google Play.
 
 1. Join the [WIPI-X testers group](https://groups.google.com/g/wipi-x-testers/about) using the Google account you use for Google Play.
-2. After review approval and test activation, use the **same account** to [opt in to the Google Play test](https://play.google.com/apps/testing/com.valiostudio.wipix).
+2. Use the **same account** to [opt in to the Google Play test](https://play.google.com/apps/testing/com.valiostudio.wipix).
 3. Install the app through the Google Play link provided on the opt-in page.
 
 Joining the group does not automatically opt you into the Play test. The initial test is configured for users aged 18 or older in South Korea, on Android 8.0 or later. The app does not include game files. The [31-game roster](COMPATIBILITY.md) is awaiting final compatibility verification.
