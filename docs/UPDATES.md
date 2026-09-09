@@ -4,6 +4,55 @@
 
 Google Play에 배포된 버전의 변경사항을 최신순으로 기록합니다. 알파·베타 기록도 정식 출시 후 계속 보존합니다.
 
+## 0.1.3 — 조작 반응·소리·프레임 개선
+
+게임의 화면 처리가 오래 걸릴 때 버튼 반응까지 지연되던 문제를 개선했습니다.
+슈퍼액션히어로3·액션퍼즐패밀리3의 실행 부담과 일부 게임의 소리 누락·끊김도 줄였습니다.
+
+- **배포 채널:** Google Play 비공개 테스트(Alpha)
+- **앱 버전 / 빌드 번호:** 0.1.3 / 4
+- **배포 확인일:** 2026-09-09 (한국 시간)
+
+### 개선 및 수정
+
+- **버튼 반응:** 게임의 무거운 화면 처리 때문에 화면 키패드와 입력 전달이 함께 기다리던 문제를 수정했습니다.
+- **프레임과 실행 성능:** 슈퍼액션히어로3·액션퍼즐패밀리3(LGT)의 실행 처리를 개선하고, 템페스트(LGT)의 반투명 화면 효과에서 발생하던 큰 속도 저하를 줄였습니다.
+- **소리 끊김:** 일부 Android 기기에서 출력 버퍼에 쌓인 소리가 버려지던 문제를 수정했습니다.
+- **누락된 효과음:** 질주쾌감스케쳐1·2(KTF)에서 일부 내장 음원이 재생되지 않던 문제를 수정했습니다.
+
+### 알려진 문제
+
+하이브리드1(LGT)은 일부 기기의 실제 플레이에서 큰 속도 저하가 남아 있습니다.
+게임·기기·장면별 화면 갱신과 소리 간격도 계속 확인 중입니다. 이번 개선은 1차 테스트 대상
+31개의 모든 진행과 모든 기기에서의 정상 동작을 보증하는 호환성 승격이 아닙니다.
+
+### 업데이트와 문제 제보
+
+업데이트는 기존 앱을 삭제하지 않고 같은 Google 계정의 Google Play에서 설치해 주세요.
+새 참여자는 [테스트 참여 안내](https://github.com/hun99999/wipi-x-releases/blob/main/docs/TESTING.md)를 따라 주세요.
+[문제 제보](https://github.com/hun99999/wipi-x-releases/issues/new/choose)에는 기기 모델,
+Android 버전, WIPI-X 버전, 게임·통신사와 재현 순서를 적어 주세요.
+
+### English
+
+WIPI-X 0.1.3 (build 4) improves input responsiveness during heavy rendering, reduces
+processing overhead in Super Action Hero 3 and Action Puzzle Family 3, and addresses
+missing effects and audio dropouts in some games. This Google Play closed-test (Alpha)
+update was confirmed available on September 9, 2026 (Korea time).
+
+- **Input:** Fixed input delivery and the on-screen keypad waiting for long game rendering operations.
+- **Performance:** Improved execution in Super Action Hero 3 and Action Puzzle Family 3 (LGT), and reduced major slowdowns during translucent effects in Tempest (LGT).
+- **Audio dropouts:** Fixed queued audio being discarded on some Android devices.
+- **Missing effects:** Restored playback of some embedded sounds in Speed Sketcher 1 and 2 (KTF).
+
+Hybrid 1 (LGT) still runs significantly below normal speed on some devices. Frame pacing
+and audio gaps can also vary by game, device, and scene. This update does not certify
+complete playthroughs or compatibility across all devices for the 31 first-phase titles.
+
+Install updates through Google Play using the same account, without uninstalling the existing app.
+New testers can follow the [testing guide](https://github.com/hun99999/wipi-x-releases/blob/main/docs/TESTING.md#english).
+See the [support guide](https://github.com/hun99999/wipi-x-releases/blob/main/SUPPORT.md) to report issues.
+
 ## 0.1.2 — 소리와 실행 성능 개선
 
 일부 게임에서 소리가 나오지 않던 문제를 수정하고, 게임 진행 중 속도 저하와 프레임

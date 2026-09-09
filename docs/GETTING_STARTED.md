@@ -2,7 +2,7 @@
 
 [프로젝트 홈](../README.md) · [테스트 참여 안내](TESTING.md) · [앱 출시 안내](https://wipix.valiostudio.com/ko/download/)
 
-이 문서는 0.1.2 테스트 앱의 사용 흐름을 설명합니다. Android 8.0 이상이 필요하며, 앱 설치와 업데이트는 Google Play에서 제공합니다. 2026년 9월 9일 기준 비공개 테스트(Alpha)가 진행 중입니다. [테스트 참여 안내](TESTING.md)에 따라 그룹 가입과 Play 테스트 참여를 마친 뒤 설치하세요.
+이 문서는 0.1.3 테스트 앱의 사용 흐름을 설명합니다. Android 8.0 이상이 필요하며, 앱 설치와 업데이트는 Google Play에서 제공합니다. 2026년 9월 9일 기준 비공개 테스트(Alpha)가 진행 중입니다. [테스트 참여 안내](TESTING.md)에 따라 그룹 가입과 Play 테스트 참여를 마친 뒤 설치하세요.
 
 ## 게임 가져오기
 
@@ -38,7 +38,7 @@
 
 ## Quick start in English
 
-The 0.1.2 closed test (Alpha) is available to eligible testers as of September 9, 2026. Follow the [testing guide](TESTING.md#english), join the testers group, opt in, and install through Google Play. Android 8.0 or later is required.
+The 0.1.3 closed test (Alpha) is available to eligible testers as of September 9, 2026. Follow the [testing guide](TESTING.md#english), join the testers group, opt in, and install through Google Play. Android 8.0 or later is required.
 
 Put your game files in a dedicated Android folder and select it in WIPI-X. **Keep each individual game's ZIP intact.** Extract only a separate outer collection archive that contains several game ZIPs. Do not unpack the JAR or resources inside an individual game package. Subfolders are included when scanning. Use the scan button after adding new files, or import several files directly.
 
