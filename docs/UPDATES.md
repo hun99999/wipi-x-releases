@@ -4,6 +4,58 @@
 
 Google Play에 배포된 버전의 변경사항을 최신순으로 기록합니다. 알파·베타 기록도 정식 출시 후 계속 보존합니다.
 
+## 0.1.4 — 투구 화면·입력 반응 개선
+
+2010프로야구의 투구 중 화면이 지워지던 문제와 일부 게임의 추가 입력 지연을 수정했습니다.
+LGT 게임의 실행 부담을 줄이고 정상 종료 안내도 바로잡았습니다.
+
+- **배포 채널:** Google Play 비공개 테스트(Alpha)
+- **앱 버전 / 빌드 번호:** 0.1.4 / 5
+- **배포 확인일:** 2026-09-10 (한국 시간)
+
+### 개선 및 수정
+
+- **2010프로야구(LGT):** 나만의리그 투수편에서 공을 던질 때 점수판과 관중석 일부가 지워지던 화면 갱신 문제를 수정했습니다.
+- **버튼 반응:** 제노니아2 등 일부 LGT 게임에서 앞선 처리가 끝난 뒤에도 키 전달이 추가로 기다리던 지연을 줄였습니다.
+- **실행 성능:** LGT 게임의 반복 연산과 함수 복귀 처리를 개선해 실행 부담을 줄였습니다.
+- **정상 종료:** 게임 안에서 종료했을 때 저장 처리가 끝나기 전에 오류 안내가 나타나던 문제를 수정했습니다.
+
+### 알려진 문제
+
+하이브리드1(LGT)은 일부 기기의 실제 플레이에서 큰 속도 저하가 남아 있습니다.
+게임·기기·장면별 화면 갱신과 소리 간격도 계속 확인 중입니다. 이번 개선은 1차 테스트 대상 31개의 모든 진행과 모든 기기에서의 정상 동작을 보증하는 호환성 승격이 아닙니다.
+
+게임 전환 뒤 입력이 반응하지 않는 현상도 조사 중입니다. 발생하면 게임을 정상 종료하고 앱을 완전히 종료한 뒤 다시 실행해 주세요.
+
+### 업데이트와 문제 제보
+
+업데이트는 기존 앱을 삭제하지 않고 같은 Google 계정의 Google Play에서 설치해 주세요.
+새 참여자는 [테스트 참여 안내](https://github.com/hun99999/wipi-x-releases/blob/main/docs/TESTING.md)를 따라 주세요.
+[문제 제보](https://github.com/hun99999/wipi-x-releases/issues/new/choose)에는 기기 모델,
+Android 버전, WIPI-X 버전, 게임·통신사와 재현 순서를 적어 주세요.
+
+### English
+
+WIPI-X 0.1.4 (build 5) fixes disappearing graphics during pitching in 2010 Pro Baseball,
+reduces an extra input-delivery delay in some LGT games, lowers runtime overhead,
+and fixes a misleading error message on a normal game exit. This Google Play closed-test
+(Alpha) update was confirmed available on September 10, 2026 (Korea time).
+
+- **2010 Pro Baseball (LGT):** Fixed the scoreboard and parts of the stadium disappearing when throwing a pitch in My League's pitcher mode.
+- **Input:** Reduced an extra wait before ready key events reached games such as Zenonia 2 (LGT).
+- **Performance:** Reduced overhead in repeated operations and function returns in LGT games.
+- **Normal exit:** Fixed an error message appearing before save completion when exiting through a game's own menu.
+
+Hybrid 1 (LGT) still runs significantly below normal speed on some devices. Frame pacing
+and audio gaps can also vary by game, device, and scene. This update does not certify
+complete playthroughs or compatibility across all devices for the 31 first-phase titles.
+
+We are also investigating an observed loss of input after switching games. If this occurs, exit the game normally, close the app completely, and reopen it.
+
+Install updates through Google Play using the same account, without uninstalling the existing app.
+New testers can follow the [testing guide](https://github.com/hun99999/wipi-x-releases/blob/main/docs/TESTING.md#english).
+See the [support guide](https://github.com/hun99999/wipi-x-releases/blob/main/SUPPORT.md) to report issues.
+
 ## 0.1.3 — 조작 반응·소리·프레임 개선
 
 게임의 화면 처리가 오래 걸릴 때 버튼 반응까지 지연되던 문제를 개선했습니다.
