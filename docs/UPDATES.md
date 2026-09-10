@@ -4,7 +4,53 @@
 
 Google Play에 배포된 버전의 변경사항을 최신순으로 기록합니다. 알파·베타 기록도 정식 출시 후 계속 보존합니다.
 
-## 0.1.4 — 투구 화면·입력 반응 개선
+## WIPI-X 0.1.5 — 더 편한 화면과 터치 오버레이 편집
+
+화면을 더 촘촘하게 정리하고, 키패드를 직접 움직여 설정할 수 있도록 개선했습니다. 앱을 새로 실행할 때 새 버전도 확인할 수 있습니다.
+
+- **배포 채널:** Google Play 비공개 테스트(Alpha)
+- **앱 버전 / 빌드 번호:** 0.1.5 / 6
+- **배포 확인일:** 2026-09-10 (한국 시간)
+
+### 개선 및 추가
+
+- **화면과 탐색:** 작은 화면, 큰 글자, 가로 화면과 태블릿에 맞춰 배치와 여백을 조정했습니다. 앱 전반에 공통 픽셀 아이콘을 적용했습니다.
+- **더보기:** 세 번째 탭에서 설정, 앱 업데이트, GitHub와 문제 제보에 접근할 수 있습니다. 설정은 하위 화면으로 이동해 조정합니다.
+- **설정과 편집:** 불필요한 모달을 줄이고 선택 버튼과 스위치를 정리했습니다. 스크롤이 필요한 영역에는 스크롤바를 표시하며 적용 버튼을 쉽게 찾을 수 있도록 배치했습니다.
+- **오버레이:** 가상 게임 화면에서 방향키와 숫자키를 드래그해 옮기고, 모서리 또는 두 손가락으로 크기를 바꿀 수 있습니다. 세로·가로 배치를 각각 조정하고 적용 전 변경을 취소할 수 있습니다.
+- **업데이트 안내:** 앱을 새로 실행하면 공개 GitHub 릴리스 정보를 확인합니다. 새 버전이 있으면 Google Play로 이동하거나 지금 안 함을 선택할 수 있습니다. 건너뛴 버전의 자동 안내는 반복하지 않으며 더보기에서 직접 확인할 수 있습니다. 자동 다운로드와 설치는 하지 않습니다.
+
+### 알려진 문제
+
+하이브리드1(LGT)은 일부 기기의 실제 플레이에서 큰 속도 저하가 남아 있습니다. 게임·기기·장면별 화면 갱신과 소리 간격도 계속 확인 중입니다. 1차 테스트 대상 31개의 모든 진행과 모든 기기에서의 정상 동작을 보증하는 호환성 승격은 아닙니다.
+
+게임 전환 뒤 입력이 반응하지 않는 현상도 조사 중입니다. 발생하면 게임을 정상 종료하고 앱을 완전히 종료한 뒤 다시 실행해 주세요.
+
+### 업데이트와 문제 제보
+
+기존 앱을 삭제하지 않고 같은 Google 계정의 Google Play에서 업데이트해 주세요. 0.1.4에는 새 업데이트 안내 기능이 없으므로 이번 업데이트는 Google Play에서 직접 확인해 주세요.
+새 참여자는 [테스트 참여 안내](https://github.com/hun99999/wipi-x-releases/blob/main/docs/TESTING.md)를 따라 주세요.
+[문제 제보](https://github.com/hun99999/wipi-x-releases/issues/new/choose)에는 기기 모델, Android 버전, WIPI-X 버전, 게임·통신사와 재현 순서를 적어 주세요.
+업데이트 조회의 정보 처리는 [개인정보처리방침](https://wipix.valiostudio.com/privacy/)에서 확인할 수 있습니다.
+
+### English
+
+WIPI-X 0.1.5 (build 6) makes the interface more compact and introduces direct touch editing of the virtual keypad. This Google Play closed-test (Alpha) update was confirmed available on September 10, 2026 (Korea time).
+
+- **Interface and navigation:** Adjusted spacing and layouts for small screens, large text, landscape and tablets, with shared pixel icons throughout the app.
+- **More tab:** Access settings, updates, GitHub and issue reporting from the third tab. Settings open as nested screens.
+- **Settings and editors:** Reduced unnecessary dialogs, refined selection buttons and switches, and made scrollbars and apply actions easier to find.
+- **Overlay editing:** Drag the direction and number pads on a virtual game screen. Resize them using a corner handle or two fingers, edit portrait and landscape separately, and cancel changes before applying them.
+- **Update notices:** A fresh app launch checks public GitHub releases. Open Google Play to update or skip the offered version. Automatic notices do not repeat for a skipped version, while manual checks remain available under More. Updates are never downloaded or installed automatically.
+
+Hybrid 1 (LGT) still runs significantly below normal speed on some devices. Frame pacing and audio gaps can vary by game, device and scene. This update does not certify complete playthroughs or compatibility across all devices for the 31 first-phase titles.
+
+We are also investigating an observed loss of input after switching games. If this occurs, exit the game normally, close the app completely, and reopen it.
+
+Install through Google Play using the same account, without uninstalling the existing app. Version 0.1.4 has no in-app update notice, so check Google Play directly for this update.
+See the [testing guide](https://github.com/hun99999/wipi-x-releases/blob/main/docs/TESTING.md#english), [support guide](https://github.com/hun99999/wipi-x-releases/blob/main/SUPPORT.md) and [privacy policy](https://wipix.valiostudio.com/privacy/).
+
+## WIPI-X 0.1.4 — 투구 화면·입력 반응 개선
 
 2010프로야구의 투구 중 화면이 지워지던 문제와 일부 게임의 추가 입력 지연을 수정했습니다.
 LGT 게임의 실행 부담을 줄이고 정상 종료 안내도 바로잡았습니다.
@@ -56,7 +102,7 @@ Install updates through Google Play using the same account, without uninstalling
 New testers can follow the [testing guide](https://github.com/hun99999/wipi-x-releases/blob/main/docs/TESTING.md#english).
 See the [support guide](https://github.com/hun99999/wipi-x-releases/blob/main/SUPPORT.md) to report issues.
 
-## 0.1.3 — 조작 반응·소리·프레임 개선
+## WIPI-X 0.1.3 — 조작 반응·소리·프레임 개선
 
 게임의 화면 처리가 오래 걸릴 때 버튼 반응까지 지연되던 문제를 개선했습니다.
 슈퍼액션히어로3·액션퍼즐패밀리3의 실행 부담과 일부 게임의 소리 누락·끊김도 줄였습니다.
@@ -105,7 +151,7 @@ Install updates through Google Play using the same account, without uninstalling
 New testers can follow the [testing guide](https://github.com/hun99999/wipi-x-releases/blob/main/docs/TESTING.md#english).
 See the [support guide](https://github.com/hun99999/wipi-x-releases/blob/main/SUPPORT.md) to report issues.
 
-## 0.1.2 — 소리와 실행 성능 개선
+## WIPI-X 0.1.2 — 소리와 실행 성능 개선
 
 일부 게임에서 소리가 나오지 않던 문제를 수정하고, 게임 진행 중 속도 저하와 프레임
 끊김을 줄였습니다. 장시간 실행할 때 임시 데이터가 계속 쌓이던 문제도 개선했습니다.
@@ -142,7 +188,7 @@ Install updates through Google Play using the same account, without uninstalling
 New testers can follow the [testing guide](https://github.com/hun99999/wipi-x-releases/blob/main/docs/TESTING.md#english).
 See the [support guide](https://github.com/hun99999/wipi-x-releases/blob/main/SUPPORT.md) to report issues.
 
-## 0.1.1 — 실행 안정성과 성능 개선
+## WIPI-X 0.1.1 — 실행 안정성과 성능 개선
 
 게임 중 연속으로 키를 누르거나 효과가 표시될 때 화면이 끊기는 현상을 줄였습니다.
 이름 변경·캐릭터 생성 중 게임이 종료되는 문제와, 게임을 종료한 뒤에도 저장 파일을
@@ -197,7 +243,7 @@ the [testing guide](https://github.com/hun99999/wipi-x-releases/blob/main/docs/T
 Back up important saves outside the app before uninstalling or clearing app data. See the
 [support guide](https://github.com/hun99999/wipi-x-releases/blob/main/SUPPORT.md) to report issues.
 
-## 0.1.0 — 첫 알파 테스트
+## WIPI-X 0.1.0 — 첫 알파 테스트
 
 WIPI-X의 첫 비공개 테스트를 시작했습니다. KTF·LGT WIPI 게임을 Android에서 실행하고, 화면 키패드와 게임패드로 조작할 수 있습니다.
 
