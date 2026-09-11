@@ -4,6 +4,57 @@
 
 Google Play에 배포된 버전의 변경사항을 최신순으로 기록합니다. 알파·베타 기록도 정식 출시 후 계속 보존합니다.
 
+## WIPI-X 0.1.6 — 도트 UI와 라이브러리 조작 개선
+
+라이브러리의 정렬과 보기 전환을 간편하게 만들고, 작은 화면부터 태블릿까지 도트 UI의 배치와 여백을 다듬었습니다. 일시정지 메뉴와 오디오 재개·종료 처리의 안정성도 개선했습니다.
+
+- **배포 채널:** Google Play 비공개 테스트(Alpha)
+- **앱 버전 / 빌드 번호:** 0.1.6 / 7
+- **배포 확인일:** 2026-09-11 (한국 시간)
+
+### 개선 및 수정
+
+- **바로 바뀌는 정렬:** 별도 선택 화면으로 이동하지 않고 라이브러리에서 최근 실행순과 제목순을 바로 바꿀 수 있습니다. 그리드·목록 전환 버튼의 크기와 선택 표시도 맞췄습니다.
+- **즐겨찾기:** 그리드 위에 겹치던 별 버튼을 정리했습니다. 게임을 길게 눌러 게임 정보에서 즐겨찾기를 추가·해제할 수 있으며, 목록형의 오른쪽 별 버튼은 유지합니다.
+- **도트 UI:** 라이브러리·즐겨찾기·탐색에 도트 글꼴을 적용하고, 반투명 탐색 영역과 아이콘·글자의 정렬을 다듬었습니다. 밝은 테마와 어두운 테마를 모두 지원합니다.
+- **작은 화면과 태블릿:** 작은 앱 창에서는 여백과 UI 크기를 더 촘촘하게 조정합니다. 큰 글자·짧은 가로·정사각형·태블릿 화면에서 목록 공간과 탐색 배치를 개선했습니다.
+- **일시정지:** 메뉴를 아이콘 없는 도트 글꼴 버튼으로 통일하고 여백을 줄였습니다. 내용이 넘치면 스크롤바가 표시됩니다. 회전 후 종료 확인 버튼이 잘리던 문제도 수정했습니다.
+- **오디오 안정성:** 소리를 재개하거나 종료할 때의 버퍼 처리와 동시 접근을 보강했습니다.
+
+### 알려진 문제
+
+리듬스타(KTF)는 메인 화면에서 소리 끊김이 남을 수 있습니다. 실제 플레이와 구분해 확인 중이며, 이번 업데이트가 모든 소리 간격을 해결했다는 뜻은 아닙니다.
+
+놈ZERO(LGT)의 배경음이 겹친다는 제보는 재현과 원인 확인을 계속하고 있습니다. 하이브리드1(LGT)의 일부 기기에서 큰 속도 저하와 게임·기기·장면별 화면 갱신 간격도 남아 있습니다. 1차 테스트 대상31개의 전체 진행과 모든 기기에서 정상 동작을 보증하는 호환성 승격은 아닙니다.
+
+게임 전환 뒤 입력이 반응하지 않는 현상도 조사 중입니다. 발생하면 게임을 정상 종료하고 앱을 완전히 종료한 뒤 다시 실행해 주세요.
+
+### 업데이트와 문제 제보
+
+기존 앱을 삭제하지 않고 같은 Google 계정의 Google Play에서 업데이트해 주세요. 0.1.5 이상은 **더보기 → 앱 업데이트**에서도 새 버전을 확인할 수 있습니다. 업데이트 안내에서 지금 안 함을 선택했다면 수동으로 확인해 주세요.
+새 참여자는 [테스트 참여 안내](https://github.com/hun99999/wipi-x-releases/blob/main/docs/TESTING.md)를 따라 주세요.
+[문제 제보](https://github.com/hun99999/wipi-x-releases/issues/new/choose)에는 기기 모델, Android 버전, WIPI-X 버전, 게임·통신사와 재현 순서를 적어 주세요.
+
+### English
+
+WIPI-X 0.1.6 (build 7) simplifies library sorting and view switching, refines the pixel-style interface for small screens and tablets, and improves the pause menu and audio resume/close handling. This Google Play closed-test (Alpha) update was confirmed available on September 11, 2026.
+
+- **Immediate sorting:** Switch between recently played and title order directly in the library. Grid/list buttons now have consistent sizing and selection states.
+- **Favorites:** Removed the overlapping star button from grid tiles. Long-press a game to manage favorites in its information screen. The star button on the right of list rows remains available.
+- **Pixel-style interface:** Applied the pixel font to the library, favorites and navigation, and refined translucent navigation surfaces and icon/text alignment in both light and dark themes.
+- **Small screens and tablets:** More compact sizing and spacing in small app windows, with improved library space and navigation layouts for large text, short landscape windows, square screens and tablets.
+- **Pause menu:** Unified actions as centered text buttons using the pixel font, reduced spacing, and kept the scrollbar visible when content overflows. Fixed clipped exit-confirmation buttons after rotation.
+- **Audio stability:** Hardened buffer and concurrent-access handling when audio resumes or closes.
+
+Rhythm Star (KTF) may still have audio gaps on its main screen; this is being investigated separately from active gameplay. This update does not resolve every audio gap.
+
+A report of overlapping background music in Nom ZERO (LGT) is still under investigation. Hybrid 1 (LGT) remains significantly slow on some devices, and frame pacing can vary by game, device and scene. This update does not certify complete playthroughs or compatibility across all devices for the 31 first-phase titles.
+
+We are also investigating an observed loss of input after switching games. If this occurs, exit the game normally, close the app completely, and reopen it.
+
+Update through Google Play using the same account, without uninstalling the app. Version 0.1.5 and later also support manual checks under More → App update. Check manually if you previously skipped the update notice.
+See the [testing guide](https://github.com/hun99999/wipi-x-releases/blob/main/docs/TESTING.md#english), [support guide](https://github.com/hun99999/wipi-x-releases/blob/main/SUPPORT.md) and [privacy policy](https://wipix.valiostudio.com/privacy/).
+
 ## WIPI-X 0.1.5 — 더 편한 화면과 터치 오버레이 편집
 
 화면을 더 촘촘하게 정리하고, 키패드를 직접 움직여 설정할 수 있도록 개선했습니다. 앱을 새로 실행할 때 새 버전도 확인할 수 있습니다.

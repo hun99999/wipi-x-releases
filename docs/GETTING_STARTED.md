@@ -2,7 +2,7 @@
 
 [프로젝트 홈](../README.md) · [테스트 참여 안내](TESTING.md) · [앱 출시 안내](https://wipix.valiostudio.com/ko/download/)
 
-이 문서는 0.1.5 테스트 앱의 사용 흐름을 설명합니다. Android 8.0 이상이 필요하며, 앱 설치와 업데이트는 Google Play에서 제공합니다. 2026년 9월 10일 기준 비공개 테스트(Alpha)가 진행 중입니다. [테스트 참여 안내](TESTING.md)에 따라 그룹 가입과 Play 테스트 참여를 마친 뒤 설치하세요.
+이 문서는 0.1.6 테스트 앱의 사용 흐름을 설명합니다. Android 8.0 이상이 필요하며, 앱 설치와 업데이트는 Google Play에서 제공합니다. 2026년 9월 11일 기준 비공개 테스트(Alpha)가 진행 중입니다. [테스트 참여 안내](TESTING.md)에 따라 그룹 가입과 Play 테스트 참여를 마친 뒤 설치하세요.
 
 ## 게임 가져오기
 
@@ -15,6 +15,10 @@
 파일을 개별 선택해 가져오는 방법도 사용할 수 있습니다. 앱은 가져온 사본을 사용하므로 원본 폴더를 변경하거나 삭제해도 그 변경이 앱 내부 게임 삭제로 자동 반영되지는 않습니다.
 
 `게임명_통신사_wipiX호환.zip`은 별도로 관리하는 파일의 이름 규칙입니다. 이름만으로 모든 기능의 지원을 뜻하지는 않습니다. 기존 `.wipix` 게임 파일도 불러올 수 있습니다.
+
+## 라이브러리 정리
+
+정렬 버튼으로 최근 실행순·제목순을 바로 바꿉니다. 그리드·목록 버튼으로 보기 방식을 선택할 수 있습니다. 그리드에서는 게임을 길게 눌러 게임 정보에서 즐겨찾기를 추가·해제하고, 목록에서는 오른쪽 별 버튼을 사용할 수 있습니다.
 
 ## 키패드와 게임패드
 
@@ -30,7 +34,7 @@
 
 앱을 새로 실행하면 GitHub의 공개 릴리스 정보를 확인합니다. 새 버전 안내에서 **업데이트**를 누르면 Google Play로 이동하며, **지금 안 함**을 선택한 버전은 자동 안내를 반복하지 않습니다. **더보기 → 앱 업데이트**에서 언제든 직접 확인할 수 있고 더 높은 새 버전은 다시 안내합니다. 자동 다운로드·설치는 하지 않습니다.
 
-0.1.4에는 이 안내 기능이 없으므로 0.1.5로의 첫 업데이트는 기존 앱을 삭제하지 않고 Google Play에서 직접 확인해 주세요.
+0.1.4 이하에서는 Google Play에서 직접 확인해 주세요. 기존 앱을 삭제할 필요는 없습니다.
 
 ## 저장 백업
 
@@ -46,12 +50,14 @@
 
 ## Quick start in English
 
-The 0.1.5 closed test (Alpha) is available to eligible testers as of September 10, 2026. Follow the [testing guide](TESTING.md#english), join the testers group, opt in, and install through Google Play. Android 8.0 or later is required.
+The 0.1.6 closed test (Alpha) is available to eligible testers as of September 11, 2026. Follow the [testing guide](TESTING.md#english), join the testers group, opt in, and install through Google Play. Android 8.0 or later is required.
 
 Put your game files in a dedicated Android folder and select it in WIPI-X. **Keep each individual game's ZIP intact.** Extract only a separate outer collection archive that contains several game ZIPs. Do not unpack the JAR or resources inside an individual game package. Subfolders are included when scanning. Use the scan button after adding new files, or import several files directly.
 
+Switch between recent/title sorting and grid/list views directly in the library. Long-press a grid tile to manage favorites in game information, or use the star button in a list row.
+
 Settings include classic and flat keypads, portrait and landscape layouts, Korean Cheonjiin and multi-tap English input, gamepad mappings, themes, and playback speed. In the mapping screen, pressing a controller button highlights its position; use the on-screen controls to edit and apply mappings.
 
-Open settings under More. Drag and resize keypad groups on the virtual overlay canvas, select Use this layout, then Apply. Portrait and landscape layouts are separate. A fresh app launch checks public releases; skip an offered version to stop its automatic notice, or check manually under More → App update. Version 0.1.4 has no such notice, so check Google Play directly for the first update to 0.1.5.
+Open settings under More. Drag and resize keypad groups on the virtual overlay canvas, select Use this layout, then Apply. Portrait and landscape layouts are separate. A fresh app launch checks public releases; skip an offered version to stop its automatic notice, or check manually under More → App update. On version 0.1.4 or earlier, check Google Play directly without uninstalling the app.
 
 Save inside the game and exit normally before exporting a backup from the game card's long-press menu. Restoring replaces that game's existing save. Keep the matching game file with the backup; backups are not automatically migrated between different game-file contents. There is no automatic cloud backup.
