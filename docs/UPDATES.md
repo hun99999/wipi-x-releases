@@ -2,7 +2,60 @@
 
 [프로젝트 홈](../README.md) · [테스트 참여 안내](TESTING.md) · [버전별 GitHub 릴리즈](https://github.com/hun99999/wipi-x-releases/releases)
 
-Google Play에 배포된 버전의 변경사항을 최신순으로 기록합니다. 알파·베타 기록도 정식 출시 후 계속 보존합니다.
+Google Play에 심사 요청하거나 배포한 버전의 변경사항을 최신순으로 기록하며, 각 버전의 제공 상태를 구분합니다. 알파·베타 기록도 정식 출시 후 계속 보존합니다.
+
+## WIPI-X 0.1.7 — 레트로 스킨·키패드·저장 날짜 개선
+
+레트로 게임기 모양의 화면 컨트롤러를 추가하고, 피처폰 키패드의 배치와 접기 기능을 개선했습니다. 제노니아 시리즈의 저장 슬롯 표시와 저장 날짜도 바로잡았습니다.
+
+- **배포 채널:** Google Play 비공개 테스트(Alpha)
+- **앱 버전 / 빌드 번호:** 0.1.7 / 8
+- **심사 요청일:** 2026-09-12 (한국 시간)
+- **Play 상태:** 심사 요청 완료 · 제공 대기. GitHub 기록을 먼저 게시하며, Play에서 업데이트가 표시되기까지 시간이 걸릴 수 있습니다.
+
+### 새로운 기능과 개선
+
+- **레트로 화면 컨트롤러:** WIPI-X 16-bit 실버 스킨과 지원 형식의 `.deltaskin` 가져오기를 제공합니다. 스킨 선택 화면에서 그림 버튼을 눌러 키매핑으로 바로 이동할 수 있습니다.
+- **공유 키매핑:** 화면 컨트롤러는 기존 공통·게임별 게임패드 매핑을 그대로 사용합니다. 실제 컨트롤러를 연결하지 않아도 화면에서 설정할 수 있습니다.
+- **피처폰 키패드:** 좌메뉴·우메뉴·통화·취소 버튼의 외형을 줄이고, 십자키와 떨어진 오른쪽에 모았습니다. 하단 여백도 조정해 작은 화면의 불필요한 빈 공간을 줄였습니다.
+- **십자키 접기:** 오른쪽 위 화살표로 접으면 기능키 네 개가 한 줄로 정리되고 숫자키는 유지됩니다. 확보한 공간에 게임 화면을 비율에 맞춰 배치하며, 게임 크기를 줄이지 않고 여유가 있을 때만 방향키·OK를 한 줄로 표시합니다.
+- **저장 슬롯과 날짜:** 제노니아1·2·3(LGT)에서 새로 저장할 때 실제 저장 날짜와 시간이 기록되도록 수정했습니다. 저장이 있는데 EMPTY로 보이던 제노니아2의 슬롯 표시도 수정했습니다. 기존 슬롯의 잘못된 날짜는 게임에서 다시 저장하면 갱신됩니다.
+- **작은 화면과 성능:** 스킨 이미지는 필요한 크기로 읽고 재사용합니다. 키패드가 숨겨진 상태에서는 스킨을 불러오지 않으며, 큰 글자에서 매핑 설명이 잘리던 부분도 다듬었습니다.
+
+### 지원 범위와 알려진 문제
+
+외부 Delta 스킨은 SNES·NES·GB·GBC·GBA의 디지털 버튼과 지원되는 PNG/PDF 표현을 대상으로 합니다. DS 다중 화면, 아날로그 입력, 일부 효과와 표현은 지원하지 않습니다. 한 장으로 합쳐진 외부 스킨의 개별 버튼 위치·크기 편집도 포함하지 않습니다.
+
+제노니아 저장 날짜 수정은 확인한 LGT 판본에 적용됩니다. 게임 내부 저장을 사용하며 임의 시점 저장 기능이 추가된 것은 아닙니다. 앱 전체 디자인은 유지합니다.
+
+리듬스타(KTF) 메인 화면의 소리 간격, 놈ZERO(LGT)의 배경음 겹침 제보, 하이브리드1(LGT)의 일부 기기 속도 저하와 게임 전환 후 간헐적 입력 무반응은 계속 확인 중입니다. 입력이 멈추면 게임을 정상 종료하고 앱을 완전히 종료한 뒤 다시 실행해 주세요. 게임·기기·장면에 따른 성능 차이가 있으며 전체 진행이나 모든 기기의 호환을 보증하지 않습니다.
+
+### 업데이트와 문제 제보
+
+Play 반영 뒤 기존 앱을 삭제하지 않고 같은 Google 계정으로 업데이트해 주세요. 앱의 업데이트 안내가 Play 반영보다 먼저 보일 수 있습니다. Play에 업데이트 버튼이 아직 없으면 이후 다시 확인해 주세요.
+[테스트 참여 안내](https://github.com/hun99999/wipi-x-releases/blob/main/docs/TESTING.md) · [문제 제보](https://github.com/hun99999/wipi-x-releases/issues/new/choose)
+
+### English
+
+WIPI-X 0.1.7 (build 8) adds retro on-screen controller skins, improves the feature-phone keypad layout and folding controls, and corrects save-slot dates in the Zenonia series.
+
+- **Channel:** Google Play closed test (Alpha).
+- **Submitted for review:** September 12, 2026 (Korea time).
+- **Play status:** Submitted; availability is pending. These GitHub notes are published before Play availability, so the update may not appear in Play yet.
+
+- **Retro controller skins:** Includes WIPI-X 16-bit Silver and import of supported `.deltaskin` files. Tap a button in the skin editor to open its mapping.
+- **Shared mappings:** On-screen controls use the existing global and per-game controller mappings. A physical controller is not required to edit them.
+- **Phone keypad:** Smaller menu/call/cancel button artwork, grouped to the right with separation from the D-pad, and reduced excess bottom spacing on small screens.
+- **Foldable D-pad:** The arrow above the controls folds the direction pad, places the four function keys in one row, and keeps the number keys. The game fits the available space at its original aspect ratio. A single-row direction/OK strip appears only when it fits without reducing the game image.
+- **Save slots and dates:** New in-game saves in the verified LGT versions of Zenonia 1, 2 and 3 record the actual save date and time. Fixed Zenonia 2 showing EMPTY despite an existing save. Save again inside the game to refresh an older slot's incorrect date.
+- **Small screens and rendering:** Skin images are decoded at bounded sizes and reused, and are not loaded when the keypad is hidden. Improved clipped mapping labels at larger text sizes.
+
+External skin support covers digital controls and supported PNG/PDF representations for SNES, NES, GB, GBC and GBA. DS multi-screen layouts, analog controls, some effects and representations, and moving/resizing individual buttons within a combined skin image are not supported. The overall app design is retained; these changes do not add save states.
+
+Existing investigations continue for main-screen audio gaps in Rhythm Star (KTF), reported overlapping music in Nom ZERO (LGT), low speed on some devices in Hybrid 1 (LGT), and intermittent input loss after switching games. If input stops, exit the game normally, fully close the app, and reopen it. Performance varies by game, device and scene; this is not a complete-playthrough or all-device compatibility certification.
+
+Update through Google Play using the same account, without uninstalling the existing app. The in-app notice may appear before the update is available in Play; check again later if Play does not yet offer an update.
+See the [testing guide](https://github.com/hun99999/wipi-x-releases/blob/main/docs/TESTING.md#english) and [support guide](https://github.com/hun99999/wipi-x-releases/blob/main/SUPPORT.md).
 
 ## WIPI-X 0.1.6 — 도트 UI와 라이브러리 조작 개선
 

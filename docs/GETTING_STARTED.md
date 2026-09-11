@@ -2,7 +2,7 @@
 
 [프로젝트 홈](../README.md) · [테스트 참여 안내](TESTING.md) · [앱 출시 안내](https://wipix.valiostudio.com/ko/download/)
 
-이 문서는 0.1.6 테스트 앱의 사용 흐름을 설명합니다. Android 8.0 이상이 필요하며, 앱 설치와 업데이트는 Google Play에서 제공합니다. 2026년 9월 11일 기준 비공개 테스트(Alpha)가 진행 중입니다. [테스트 참여 안내](TESTING.md)에 따라 그룹 가입과 Play 테스트 참여를 마친 뒤 설치하세요.
+이 문서는 0.1.7 테스트 앱의 사용 흐름을 설명합니다. 2026년 9월 12일 심사 요청했으며 Play 제공은 대기 중입니다. 현재 제공 확인 버전은 0.1.6입니다. Android 8.0 이상이 필요하며, 앱 설치와 업데이트는 Google Play에서 제공합니다. [테스트 참여 안내](TESTING.md)에 따라 그룹 가입과 Play 테스트 참여를 마친 뒤 설치하세요.
 
 ## 게임 가져오기
 
@@ -28,11 +28,17 @@
 
 **게임패드 키매핑**에서는 레트로·Xbox·PlayStation 배열을 고르고 화면의 버튼을 눌러 대응하는 피쳐폰 키를 지정합니다. 패드 버튼을 직접 누르면 해당 위치가 켜집니다. 변경은 **적용**으로 저장하며, 공통 매핑과 게임별 매핑을 따로 사용할 수 있습니다.
 
+0.1.7에서는 **레트로 스킨**에서 내장 WIPI-X 16-bit 실버나 지원되는 `.deltaskin`을 선택합니다. 스킨 그림의 버튼을 누르면 기존 키매핑을 편집할 수 있으며 실제 패드 연결은 필요하지 않습니다. 지원 범위는 [0.1.7 변경 안내](UPDATES.md)를 확인하세요.
+
+세로 기본 피처폰 배치에서는 오른쪽 위 화살표로 십자키를 접고 펼칠 수 있습니다. 접으면 기능키 네 개가 한 줄로 정리되고 숫자키는 유지됩니다. 방향키·OK 한 줄은 게임 화면을 줄이지 않고 남는 공간에 들어갈 때만 표시합니다.
+
 화면 크기, 키패드 표시, 0.5–4배속, 상태바와 진동도 설정할 수 있습니다. 높은 배속의 실제 속도는 기기 성능과 게임에 따라 달라집니다.
 
 ## 업데이트 확인
 
 앱을 새로 실행하면 GitHub의 공개 릴리스 정보를 확인합니다. 새 버전 안내에서 **업데이트**를 누르면 Google Play로 이동하며, **지금 안 함**을 선택한 버전은 자동 안내를 반복하지 않습니다. **더보기 → 앱 업데이트**에서 언제든 직접 확인할 수 있고 더 높은 새 버전은 다시 안내합니다. 자동 다운로드·설치는 하지 않습니다.
+
+심사 요청한 새 릴리즈의 앱 안내가 Play 반영보다 먼저 보일 수 있습니다. Play에 업데이트 버튼이 없으면 이후 다시 확인해 주세요.
 
 0.1.4 이하에서는 Google Play에서 직접 확인해 주세요. 기존 앱을 삭제할 필요는 없습니다.
 
@@ -50,7 +56,7 @@
 
 ## Quick start in English
 
-The 0.1.6 closed test (Alpha) is available to eligible testers as of September 11, 2026. Follow the [testing guide](TESTING.md#english), join the testers group, opt in, and install through Google Play. Android 8.0 or later is required.
+This guide describes 0.1.7 (Alpha), submitted for review on September 12, 2026. Play availability is pending; 0.1.6 remains the version confirmed available. Follow the [testing guide](TESTING.md#english), join the testers group, opt in, and install through Google Play. Android 8.0 or later is required.
 
 Put your game files in a dedicated Android folder and select it in WIPI-X. **Keep each individual game's ZIP intact.** Extract only a separate outer collection archive that contains several game ZIPs. Do not unpack the JAR or resources inside an individual game package. Subfolders are included when scanning. Use the scan button after adding new files, or import several files directly.
 
@@ -58,6 +64,10 @@ Switch between recent/title sorting and grid/list views directly in the library.
 
 Settings include classic and flat keypads, portrait and landscape layouts, Korean Cheonjiin and multi-tap English input, gamepad mappings, themes, and playback speed. In the mapping screen, pressing a controller button highlights its position; use the on-screen controls to edit and apply mappings.
 
+Version 0.1.7 adds a Retro skin setting for WIPI-X 16-bit Silver and supported `.deltaskin` imports. Tap the skin buttons to edit the same global/per-game mappings; a physical pad is not required. In the default portrait phone layout, use the arrow to fold the D-pad into a shorter layout with one row of function keys and unchanged number keys. A direction/OK row appears only when spare space permits it without shrinking the game. See the [release notes](UPDATES.md) for supported skin formats.
+
 Open settings under More. Drag and resize keypad groups on the virtual overlay canvas, select Use this layout, then Apply. Portrait and landscape layouts are separate. A fresh app launch checks public releases; skip an offered version to stop its automatic notice, or check manually under More → App update. On version 0.1.4 or earlier, check Google Play directly without uninstalling the app.
+
+An in-app update notice may precede Play availability. Check again later if Play does not yet offer the update.
 
 Save inside the game and exit normally before exporting a backup from the game card's long-press menu. Restoring replaces that game's existing save. Keep the matching game file with the backup; backups are not automatically migrated between different game-file contents. There is no automatic cloud backup.

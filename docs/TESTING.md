@@ -2,7 +2,7 @@
 
 [프로젝트 홈](../README.md) · [릴리즈 노트](https://github.com/hun99999/wipi-x-releases/releases) · [처음 사용하기](GETTING_STARTED.md)
 
-**0.1.6 비공개 테스트(Alpha)를 제공합니다.** 2026년 9월 11일 기준, 아래 참여 절차를 마친 테스트 대상 사용자가 Google Play에서 설치할 수 있습니다.
+**0.1.7 비공개 테스트(Alpha)를 2026년 9월 12일 심사 요청했습니다.** Play 제공은 대기 중입니다. 현재 제공이 확인된 버전은 **0.1.6**이며, 아래 참여 절차로 설치한 뒤 새 버전 반영 후 업데이트해 주세요.
 
 ## 참여 순서
 
@@ -17,7 +17,7 @@
 ## 첫 테스트 대상
 
 - Android 8.0 이상을 사용하는 대한민국의 만 18세 이상 사용자.
-- 앱 버전은 0.1.6이며, 공식 설치와 업데이트는 Google Play에서 제공합니다.
+- 현재 제공 확인 버전은 0.1.6이며 0.1.7은 제공 대기 중입니다. 공식 설치와 업데이트는 Google Play에서 제공합니다.
 - 앱에는 게임 파일이 포함되어 있지 않습니다. 이용 권한이 있는 파일을 준비해 주세요.
 - 1차 게임 목록은 [31개(KTF 18개 · LGT 13개)](COMPATIBILITY.md)이며 최종 호환 확인 전입니다.
 
@@ -25,7 +25,7 @@
 
 ## English
 
-The **0.1.6 closed test (Alpha)** is available to eligible testers as of September 11, 2026. Complete the group membership and Play opt-in steps below before installing through Google Play.
+**0.1.7 (Alpha)** was submitted for review on September 12, 2026, and Play availability is pending. **0.1.6** remains the version confirmed available; update after the new build reaches Play. Complete the group membership and Play opt-in steps below before installing through Google Play.
 
 1. Join the [WIPI-X testers group](https://groups.google.com/g/wipi-x-testers/about) using the Google account you use for Google Play.
 2. Use the **same account** to [opt in to the Google Play test](https://play.google.com/apps/testing/com.valiostudio.wipix).
