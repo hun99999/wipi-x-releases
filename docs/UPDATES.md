@@ -4,6 +4,49 @@
 
 Google Play에 심사 요청하거나 배포한 버전의 변경사항을 최신순으로 기록하며, 각 버전의 제공 상태를 구분합니다. 알파·베타 기록도 정식 출시 후 계속 보존합니다.
 
+## WIPI-X 0.1.8 — 피처폰 키패드 배치 수정
+
+세로 피처폰 키패드에서 왼쪽으로 치우쳤던 십자키를 중앙으로 돌리고, 기능키를 양쪽 가장자리에 나누어 배치했습니다.
+
+- **배포 채널:** Google Play 비공개 테스트(Alpha)
+- **앱 버전 / 빌드 번호:** 0.1.8 / 9
+- **심사 요청일:** 2026-09-12 (한국 시간)
+- **Play 상태:** 심사 요청 완료 · 제공 대기. GitHub 기록을 먼저 게시하며, Play에서 업데이트가 표시되기까지 시간이 걸릴 수 있습니다.
+
+### 수정 사항
+
+- **중앙 십자키:** 기본 세로 피처폰 배치에서 방향키와 OK를 화면 중앙에 맞췄습니다. 클래식과 플랫 키패드에 함께 적용됩니다.
+- **양쪽 기능키:** 왼쪽 가장자리에는 좌메뉴·통화를 위아래로, 오른쪽 가장자리에는 우메뉴·취소를 위아래로 배치했습니다. 십자키와의 간격을 확보합니다.
+- **접기와 게임 화면:** 접었을 때의 기능키 한 줄과 숫자키, 작은 하단 여백은 유지합니다. 기본 배율의 게임 표시 크기와 비율도 유지됩니다.
+
+레트로 스킨·공통/게임별 키매핑과 제노니아 저장 날짜 수정은 0.1.7의 개선을 이어갑니다. 앱 전체 디자인과 게임 엔진은 이번 배치 수정에서 변경하지 않았습니다.
+
+### 알려진 문제와 업데이트
+
+리듬스타(KTF) 메인 화면의 소리 간격, 놈ZERO(LGT)의 배경음 겹침 제보, 하이브리드1(LGT)의 일부 기기 속도 저하와 게임 전환 후 간헐적 입력 무반응은 계속 확인 중입니다. 입력이 멈추면 게임을 정상 종료하고 앱을 완전히 종료한 뒤 다시 실행해 주세요.
+
+Play 반영 뒤 기존 앱을 삭제하지 않고 같은 Google 계정으로 업데이트해 주세요. 앱의 업데이트 안내가 Play 반영보다 먼저 보일 수 있습니다. Play에 업데이트 버튼이 아직 없으면 이후 다시 확인해 주세요.
+[테스트 참여 안내](https://github.com/hun99999/wipi-x-releases/blob/main/docs/TESTING.md) · [문제 제보](https://github.com/hun99999/wipi-x-releases/issues/new/choose)
+
+### English
+
+WIPI-X 0.1.8 (build 9) corrects the portrait phone keypad: the D-pad is centered again, with function keys placed at the left and right edges.
+
+- **Channel:** Google Play closed test (Alpha).
+- **Submitted for review:** September 12, 2026 (Korea time).
+- **Play status:** Submitted; availability is pending. These GitHub notes are published before Play availability, so the update may not appear in Play yet.
+
+- **Centered D-pad:** Direction keys and OK are centered in the default portrait layout, for both Classic and Flat keypads.
+- **Function keys at the edges:** Left Menu above Call on the left; Right Menu above Cancel on the right, with space between each group and the D-pad.
+- **Folding and game display:** Keeps the folded function-key row, number keys and small bottom spacing. The game display size and aspect ratio at the default scale are preserved.
+
+The retro skins, shared global/per-game mappings and Zenonia save-date fixes from 0.1.7 remain included. This layout correction does not change the overall app design or game engine.
+
+Investigations continue for main-screen audio gaps in Rhythm Star (KTF), reported overlapping music in Nom ZERO (LGT), low speed on some devices in Hybrid 1 (LGT), and intermittent input loss after switching games. If input stops, exit the game normally, fully close the app, and reopen it.
+
+Update through Google Play using the same account, without uninstalling the existing app. The in-app notice may appear before the update is available in Play; check again later if Play does not yet offer an update.
+See the [testing guide](https://github.com/hun99999/wipi-x-releases/blob/main/docs/TESTING.md#english) and [support guide](https://github.com/hun99999/wipi-x-releases/blob/main/SUPPORT.md).
+
 ## WIPI-X 0.1.7 — 레트로 스킨·키패드·저장 날짜 개선
 
 레트로 게임기 모양의 화면 컨트롤러를 추가하고, 피처폰 키패드의 배치와 접기 기능을 개선했습니다. 제노니아 시리즈의 저장 슬롯 표시와 저장 날짜도 바로잡았습니다.

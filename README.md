@@ -10,7 +10,7 @@ WIPI-X는 KTF·LGT WIPI 게임 파일을 Android에서 실행하는 오프라인
 
 [공식 홈페이지](https://wipix.valiostudio.com/) · [테스트 참여 안내](docs/TESTING.md) · [릴리즈 노트](https://github.com/hun99999/wipi-x-releases/releases) · [게임 카탈로그](https://wipix.valiostudio.com/ko/games/) · [문제 제보](https://github.com/hun99999/wipi-x-releases/issues/new/choose)
 
-> **최신 기록 · 0.1.7 Alpha / Play 심사 요청** — [WIPI-X 0.1.7 — 레트로 스킨·키패드·저장 날짜 개선](https://github.com/hun99999/wipi-x-releases/releases/tag/v0.1.7) · [전체 릴리즈 보기](https://github.com/hun99999/wipi-x-releases/releases)
+> **최신 기록 · 0.1.8 Alpha / Play 심사 요청** — [WIPI-X 0.1.8 — 피처폰 키패드 배치 수정](https://github.com/hun99999/wipi-x-releases/releases/tag/v0.1.8) · [전체 릴리즈 보기](https://github.com/hun99999/wipi-x-releases/releases)
 
 ## 플레이 화면
 
@@ -24,7 +24,7 @@ WIPI-X는 KTF·LGT WIPI 게임 파일을 Android에서 실행하는 오프라인
 
 ## 앱 받기
 
-**WIPI-X 앱의 공식 설치와 업데이트는 Google Play에서만 제공합니다.** **0.1.7 (Alpha)**를 2026년 9월 12일 심사 요청했습니다. Play 제공은 대기 중이며, 현재 제공이 확인된 버전은 **0.1.6**입니다. 새 버전이 반영되면 기존 앱에서 업데이트할 수 있습니다.
+**WIPI-X 앱의 공식 설치와 업데이트는 Google Play에서만 제공합니다.** **0.1.8 (Alpha)**를 2026년 9월 12일 심사 요청했습니다. Play 제공은 대기 중이며, 현재 제공이 확인된 버전은 **0.1.7**입니다. 새 버전이 반영되면 기존 앱에서 업데이트할 수 있습니다.
 
 [WIPI-X 테스트 그룹](https://groups.google.com/g/wipi-x-testers/about)에 가입한 뒤, **같은 Google 계정**으로 [Google Play 테스트 참여](https://play.google.com/apps/testing/com.valiostudio.wipix)를 신청하고 설치하세요. [참여 순서와 대상 기기](docs/TESTING.md), [버전별 릴리즈 노트](https://github.com/hun99999/wipi-x-releases/releases)를 확인할 수 있습니다.
 
@@ -34,14 +34,15 @@ WIPI-X는 KTF·LGT WIPI 게임 파일을 Android에서 실행하는 오프라인
 
 - **게임 가져오기:** 여러 파일을 한 번에 선택하거나 폴더를 지정해 하위 폴더까지 찾습니다. 새 파일은 스캔 버튼으로 추가합니다.
 - **피쳐폰 키패드:** 클래식·플랫 디자인과 가로·세로 배치를 선택하고, 가상 화면에서 오버레이 위치와 크기를 직접 조정합니다. 게임 속 문자 입력은 천지인 한글과 영문 반복 누르기로 제공합니다.
-- **0.1.7 레트로 스킨:** WIPI-X 16-bit 실버와 지원되는 Delta 스킨 가져오기, 기존 공통·게임별 매핑 공유를 추가했습니다. 피처폰 십자키 접기도 제공합니다. Play 반영 뒤 사용할 수 있습니다.
+- **레트로 스킨:** WIPI-X 16-bit 실버와 지원되는 Delta 스킨 가져오기, 기존 공통·게임별 매핑 공유를 지원합니다. 피처폰 십자키 접기도 제공합니다.
+- **0.1.8 세로 키패드:** 십자키·OK는 중앙, 좌메뉴·통화는 왼쪽 가장자리, 우메뉴·취소는 오른쪽 가장자리로 바로잡았습니다. Play 반영 뒤 적용됩니다.
 - **게임패드:** 레트로·Xbox·PlayStation 배열과 공통·게임별 키매핑을 지원합니다. 매핑 화면에서 버튼을 누르면 해당 위치가 켜집니다.
 - **화면과 속도:** 화면 비율을 유지한 확대, 0.5–4배속, 상태바·키패드 표시와 진동을 설정합니다. 라이트·다크·시스템 테마를 선택할 수 있습니다.
 - **라이브러리:** 검색·통신사 필터·즉시 정렬·그리드/목록으로 게임을 찾습니다. 게임을 길게 눌러 즐겨찾기와 저장을 관리합니다.
 - **더보기와 업데이트:** 설정·사용 안내·GitHub·문제 제보로 이동하고 새 버전을 확인합니다. 앱 시작 시 업데이트를 안내하며 건너뛴 버전은 자동으로 다시 안내하지 않습니다.
 - **저장 백업:** 게임 안에서 저장하고 정상 종료한 뒤, 게임별 저장을 내보내거나 같은 게임에 다시 가져옵니다.
 
-게임은 오프라인으로 실행하며 로그인·광고·인앱 결제 없이 동작합니다. 앱 시작과 수동 업데이트 확인에는 GitHub 공개 릴리스 조회를 위한 인터넷 연결을 사용합니다. 기기와 게임에 따라 실행·저장 범위와 배속 성능은 다를 수 있습니다. [0.1.7 변경 안내](docs/UPDATES.md)에서 이번 테스트 버전의 내용을 확인할 수 있습니다.
+게임은 오프라인으로 실행하며 로그인·광고·인앱 결제 없이 동작합니다. 앱 시작과 수동 업데이트 확인에는 GitHub 공개 릴리스 조회를 위한 인터넷 연결을 사용합니다. 기기와 게임에 따라 실행·저장 범위와 배속 성능은 다를 수 있습니다. [0.1.8 변경 안내](docs/UPDATES.md)에서 이번 테스트 버전의 내용을 확인할 수 있습니다.
 
 ## 라이브러리와 설정
 
@@ -92,9 +93,9 @@ WIPI-X는 KTF·LGT WIPI 게임 파일을 Android에서 실행하는 오프라인
 
 WIPI-X is an offline Android emulator for classic KTF and LGT WIPI feature-phone games, made by Valio Studio. It requires Android 8.0 or later and processes game files and saves on the device, without login, ads, or in-app purchases.
 
-The app is distributed **exclusively through Google Play**. **0.1.7 (Alpha)** was submitted for review on September 12, 2026. Play availability is pending; **0.1.6** remains the version confirmed available. Join the testers group, opt in using the same Google account, and install through Google Play. See the [testing guide](docs/TESTING.md#english) and [release notes](https://github.com/hun99999/wipi-x-releases/releases).
+The app is distributed **exclusively through Google Play**. **0.1.8 (Alpha)** was submitted for review on September 12, 2026. Play availability is pending; **0.1.7** remains the version confirmed available. Join the testers group, opt in using the same Google account, and install through Google Play. See the [testing guide](docs/TESTING.md#english) and [release notes](https://github.com/hun99999/wipi-x-releases/releases).
 
-Version 0.1.7 adds retro on-screen skins, supported Delta skin imports, shared controller mappings, a foldable phone D-pad, and corrected Zenonia save dates. These features will be available after Play rollout.
+Version 0.1.8 centers the portrait phone D-pad and moves the menu/call/cancel keys to the matching left and right edges. It includes the retro skins, shared mappings, folding controls and Zenonia save-date fixes from 0.1.7. The corrected layout will be available after Play rollout.
 
 A fresh app launch or a manual check fetches public GitHub release information. Updates open in Google Play; skipped versions are not announced again automatically. Games remain offline.
 
