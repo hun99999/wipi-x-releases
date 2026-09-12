@@ -4,6 +4,50 @@
 
 Google Play에 심사 요청하거나 배포한 버전의 변경사항을 최신순으로 기록하며, 각 버전의 제공 상태를 구분합니다. 알파·베타 기록도 정식 출시 후 계속 보존합니다.
 
+## WIPI-X 0.1.11 — 호환 게임 추가와 소리·날짜 수정
+
+붕어빵타이쿤3 KTF와 레전드오브마스터 LGT의 대표 기능 검증을 지원 게임 목록에 반영하고, 일부 게임 음악의 음 종료와 붕어빵타이쿤3의 날짜 처리를 수정했습니다.
+
+배포 채널: Alpha
+앱 버전/빌드: 0.1.11/code12
+심사 요청일: 2026-09-13 (한국 시간)
+배포 상태: 심사 요청 완료 · 제공 대기. 현재 제공이 확인된 버전은0.1.10입니다.
+
+### 개선 및 수정
+
+- 붕어빵타이쿤3 KTF와 레전드오브마스터 LGT를 지원 게임으로 표시합니다. 대표 플레이·주요 기능·소리·저장 및 재실행 복구를 확인한 정확한 게임 파일에 적용됩니다.
+- 일부 SMAF 음악에서 같은 음을 반복한 뒤 종료 신호가 잘못 전달되어 음이 길게 남는 문제를 수정했습니다.
+- 붕어빵타이쿤3 KTF에서 새로 획득하는 장사일기 기록에 기기의 날짜를 사용합니다. 이미 저장된 과거 기록은 유지합니다.
+
+### 확인 범위와 알려진 한계
+
+지원 판정은 대표 기능 검증 범위이며 전체 스토리·후반·엔딩·장시간 플레이 검증을 뜻하지 않습니다. 이번 소리 수정은 모든 게임의 음질·성능이나 리듬스타의 별도 무음 간격 문제를 해결했다는 뜻은 아닙니다.
+
+테스트 참여: https://play.google.com/apps/testing/com.valiostudio.wipix
+릴리즈 기록: https://github.com/hun99999/wipi-x-releases/releases
+
+### English
+
+This update adds Bungeoppang Tycoon 3 (KTF) and Legend of Master (LGT) to the supported game list after representative feature checks, and fixes note release in some game music and the date used by Bungeoppang Tycoon 3.
+
+Channel: Alpha
+Version/build: 0.1.11/code12
+Submitted for review: September 13, 2026 (Korea time).
+Status: Submitted; Play availability is pending. Version 0.1.10 is currently confirmed available.
+
+### Improvements and fixes
+
+- Bungeoppang Tycoon 3 (KTF) and Legend of Master (LGT) appear as supported for the exact game files verified through representative gameplay, key features, audio, saving and recovery after relaunch.
+- Fixed some repeated SMAF notes continuing too long because their note-off events were assigned to an older fading voice.
+- New business diary achievements in Bungeoppang Tycoon 3 (KTF) use the device date. Previously saved records are preserved.
+
+### Scope and limitations
+
+The support status covers representative feature checks, not complete stories, late-game content, endings or extended play sessions. The sound fix does not establish full audio compatibility for every game or resolve Rhythm Star's separate audio-gap issue.
+
+Join testing: https://play.google.com/apps/testing/com.valiostudio.wipix
+Release history: https://github.com/hun99999/wipi-x-releases/releases
+
 ## WIPI-X 0.1.10 — 축구·야구·메이플 호환 개선
 
 2010슈퍼사커·2010프로야구의 로컬 G포인트 기능과 메이플스토리 도적편의 화면·속도 문제를 개선했습니다. 기존 0.1.9의 새 키패드 스킨과 플레이 기록도 함께 사용할 수 있습니다.
