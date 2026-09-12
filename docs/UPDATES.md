@@ -4,6 +4,59 @@
 
 Google Play에 심사 요청하거나 배포한 버전의 변경사항을 최신순으로 기록하며, 각 버전의 제공 상태를 구분합니다. 알파·베타 기록도 정식 출시 후 계속 보존합니다.
 
+## WIPI-X 0.1.9 — 키패드 스킨·플레이 기록·조작 개선
+
+피처폰·레트로 키패드의 새 스킨과 게임별 플레이 기록을 추가하고, 화면 배치와 키 입력 진동을 개선했습니다. 키패드 오버레이 불투명도는 0%까지 조절할 수 있습니다.
+
+- **배포 채널:** Google Play 비공개 테스트(Alpha)
+- **앱 버전 / 빌드 번호:** 0.1.9 / 10
+- **심사 요청일:** 2026-09-12 (한국 시간)
+- **Play 상태:** 심사 요청 완료 · 제공 대기. GitHub 기록을 먼저 게시하며, Play에서 업데이트가 표시되기까지 시간이 걸릴 수 있습니다. 현재 제공이 확인된 버전은 0.1.8입니다.
+
+### 새로운 기능과 개선
+
+- **새 스킨 4종:** 피처폰용 초콜릿 블랙·블루블랙 슬라이더·롤리팝 밀크와 레트로 그래파이트를 추가했습니다. 숫자키에는 작은 한글·영문 표기를 함께 제공합니다. 개별 버튼 그림을 배치하는 방식으로 화면 크기에 대응하며, 기존 공통·게임별 키매핑을 사용합니다.
+- **플레이 기록:** 전체·게임별 누적 시간과 최근 7일의 일별 막대 그래프를 확인할 수 있습니다. 기록 목록에 게임 아이콘·제목을 표시하고 해당 게임의 상세 기록으로 연결합니다. 이번 버전부터 기록되는 플레이 시간을 기기 안에 저장합니다.
+- **더 큰 가로 게임 화면:** 내장 레트로 스킨의 가로 배치에서 불필요한 상하 여백을 줄이고, 버튼 영역을 고려해 게임을 원래 비율로 확대합니다. 게임 비율·기기 화면·선택한 배치에 따라 여백은 남을 수 있습니다.
+- **피처폰 키패드 간격:** 게임 표시 크기를 유지하면서 메뉴·통화·취소 키와 숫자키 사이의 간격을 다듬고, 접었을 때 나타나는 방향키·OK 한 줄을 중앙에 맞췄습니다.
+- **키 입력 진동:** 설정이 켜져 있어도 피처폰·레트로 화면 키에서 진동이 나오지 않던 문제를 수정했습니다. 지원되는 짧은 진동 효과를 사용하고, 필요한 기기에는 짧은 기본 진동을 적용합니다. 키 입력 진동과 게임 진동은 별도 설정입니다.
+- **불투명도 0–100%:** 오버레이 편집의 최저값을 20%에서 0%로 넓혔습니다. 0%에서는 버튼 그림이 보이지 않아도 해당 위치의 터치 입력은 유지됩니다. 방향키·숫자키 영역을 각각 조절하고 저장할 수 있습니다.
+- **설정과 글자:** 설정 항목을 보기 쉽게 정리하고 일반 UI에 Pretendard를 적용했습니다. 기존 도트 영역과 앱의 기본 디자인 방향은 유지합니다.
+- **USB 디버깅 안내:** 출시 앱에서 USB 디버깅이 켜진 것으로 감지되면 끈 뒤 다시 확인하도록 안내합니다. 기기 설정을 자동으로 변경하지 않으며, 운영체제가 상태를 제공하지 않는 경우에는 감지되지 않을 수 있습니다.
+
+### 지원 범위와 알려진 문제
+
+새 내장 스킨은 버튼 부품을 분리해 그리지만, 버튼마다 자유롭게 위치·크기를 편집하는 기능은 이번 버전에 포함되지 않습니다. 기존 오버레이 그룹 편집과 키매핑을 사용할 수 있습니다. 스킨 이미지는 화면에 필요한 해상도로 읽고 재사용하며, 이 개선이 모든 게임·기기의 일정한 성능을 보장하지는 않습니다.
+
+리듬스타(KTF) 메인 화면의 소리 간격, 놈ZERO(LGT)의 배경음 겹침 제보, 하이브리드1(LGT)의 일부 기기 속도 저하와 게임 전환 후 간헐적 입력 무반응은 계속 확인 중입니다. 입력이 멈추면 게임을 정상 종료하고 앱을 완전히 종료한 뒤 다시 실행해 주세요.
+
+Play 반영 뒤 기존 앱을 삭제하지 않고 같은 Google 계정으로 업데이트해 주세요. 앱의 업데이트 안내가 Play 반영보다 먼저 보일 수 있습니다. Play에 업데이트 버튼이 아직 없으면 이후 다시 확인해 주세요.
+[테스트 참여 안내](https://github.com/hun99999/wipi-x-releases/blob/main/docs/TESTING.md) · [문제 제보](https://github.com/hun99999/wipi-x-releases/issues/new/choose)
+
+### English
+
+WIPI-X 0.1.9 (build 10) adds phone and retro keypad skins and per-game play-time history, improves game layout and key haptics, and extends touch-overlay opacity down to 0%.
+
+- **Channel:** Google Play closed test (Alpha).
+- **Submitted for review:** September 12, 2026 (Korea time).
+- **Play status:** Submitted; availability is pending. These notes are published before Play availability. Version 0.1.8 is currently confirmed available.
+
+- **Four new skins:** Chocolate Black, Blueblack Slider and Lollipop Milk phone keypads, plus Retro Graphite. Number keys include small Korean and English legends. Separate button artwork adapts to different screen sizes and uses existing global/per-game mappings.
+- **Play-time history:** Overall and per-game totals, daily bars for the last seven days, and a history list with each game's icon and title linked to its details. Play time recorded from this version onward stays on the device.
+- **Larger landscape game display:** Built-in retro layouts reduce unnecessary vertical space and fit the game at its original aspect ratio around the controls. Some spacing can remain depending on the game, screen and chosen layout.
+- **Phone keypad spacing:** Improved separation between menu/call/cancel keys and the number pad without shrinking the game display, and centered the folded direction/OK row.
+- **Key haptics:** Fixed enabled key feedback producing no vibration on phone and retro controls. Uses a supported short effect or a brief fallback vibration. Key feedback and in-game vibration remain separate settings.
+- **0–100% opacity:** Reduced the overlay editor's minimum from 20% to 0%. Fully transparent buttons remain touchable. Direction and number-pad groups can be adjusted and saved separately.
+- **Settings and text:** Clearer settings organization and Pretendard for general UI text, retaining the existing pixel-text areas and overall app design.
+- **USB debugging notice:** The release app asks users to disable USB debugging when it detects it as enabled, then check again. It never changes the device setting automatically. Detection may be unavailable when the operating system hides the status.
+
+The new built-in skins use separate button artwork; moving and resizing each individual button freely is not included in this release. Existing overlay-group editing and key mapping remain available. Skin images are decoded at bounded resolutions and reused; performance still varies by game and device.
+
+Investigations continue for main-screen audio gaps in Rhythm Star (KTF), reported overlapping music in Nom ZERO (LGT), low speed on some devices in Hybrid 1 (LGT), and intermittent input loss after switching games. If input stops, exit the game normally, fully close the app, and reopen it.
+
+Update through Google Play using the same account without uninstalling the existing app. The in-app notice may appear before the update is available in Play; check again later if Play does not yet offer it.
+See the [testing guide](https://github.com/hun99999/wipi-x-releases/blob/main/docs/TESTING.md#english) and [support guide](https://github.com/hun99999/wipi-x-releases/blob/main/SUPPORT.md).
+
 ## WIPI-X 0.1.8 — 피처폰 키패드 배치 수정
 
 세로 피처폰 키패드에서 왼쪽으로 치우쳤던 십자키를 중앙으로 돌리고, 기능키를 양쪽 가장자리에 나누어 배치했습니다.

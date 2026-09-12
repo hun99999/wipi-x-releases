@@ -2,7 +2,7 @@
 
 [프로젝트 홈](../README.md) · [테스트 참여 안내](TESTING.md) · [앱 출시 안내](https://wipix.valiostudio.com/ko/download/)
 
-이 문서는 0.1.8 테스트 앱의 사용 흐름을 설명합니다. 2026년 9월 12일 심사 요청했으며 Play 제공은 대기 중입니다. 현재 제공 확인 버전은 0.1.7입니다. Android 8.0 이상이 필요하며, 앱 설치와 업데이트는 Google Play에서 제공합니다. [테스트 참여 안내](TESTING.md)에 따라 그룹 가입과 Play 테스트 참여를 마친 뒤 설치하세요.
+이 문서는 0.1.9 테스트 앱의 사용 흐름을 설명합니다. 2026년 9월 12일 심사 요청했으며 Play 제공은 대기 중입니다. 현재 제공 확인 버전은 0.1.8입니다. Android 8.0 이상이 필요하며, 앱 설치와 업데이트는 Google Play에서 제공합니다. [테스트 참여 안내](TESTING.md)에 따라 그룹 가입과 Play 테스트 참여를 마친 뒤 설치하세요.
 
 ## 게임 가져오기
 
@@ -22,17 +22,25 @@
 
 ## 키패드와 게임패드
 
-**더보기 → 설정 → 화면 · 키패드**에서 클래식·플랫 키패드와 가로·세로 배치를 선택하고 **키패드 미리보기**로 위치를 확인할 수 있습니다. 게임 안의 이름 입력에는 천지인 한글과 영문 반복 누르기를 사용합니다.
+**더보기 → 설정 → 화면 · 키패드**에서 클래식·플랫과 새 피처폰 스킨 3종, 가로·세로 배치를 선택하고 **키패드 미리보기**로 위치를 확인할 수 있습니다. 게임 안의 이름 입력에는 천지인 한글과 영문 반복 누르기를 사용합니다.
 
-**오버레이 위치 및 크기 편집**에서는 가상 화면의 방향키·숫자키를 끌어 이동하고 모서리나 두 손가락으로 크기를 바꿉니다. 세로·가로 배치를 따로 조정한 뒤 **이 배치 사용 → 적용**으로 저장합니다. 적용 전에는 뒤로 돌아가 변경을 취소할 수 있습니다.
+**오버레이 위치 및 크기 편집**에서는 가상 화면의 방향키·숫자키를 끌어 이동하고 모서리나 두 손가락으로 크기를 바꿉니다. 불투명도는 0–100%로 조절하며, 0%에서도 터치 입력은 유지됩니다. 세로·가로 배치를 따로 조정한 뒤 **이 배치 사용 → 적용**으로 저장합니다. 적용 전에는 뒤로 돌아가 변경을 취소할 수 있습니다.
 
 **게임패드 키매핑**에서는 레트로·Xbox·PlayStation 배열을 고르고 화면의 버튼을 눌러 대응하는 피쳐폰 키를 지정합니다. 패드 버튼을 직접 누르면 해당 위치가 켜집니다. 변경은 **적용**으로 저장하며, 공통 매핑과 게임별 매핑을 따로 사용할 수 있습니다.
 
-**레트로 스킨**에서 내장 WIPI-X 16-bit 실버나 지원되는 `.deltaskin`을 선택합니다. 스킨 그림의 버튼을 누르면 기존 키매핑을 편집할 수 있으며 실제 패드 연결은 필요하지 않습니다. 지원 범위는 [버전별 변경 안내](UPDATES.md)를 확인하세요.
+**레트로 스킨**에서 내장 WIPI-X 16-bit 실버·레트로 그래파이트나 지원되는 `.deltaskin`을 선택합니다. 스킨 그림의 버튼을 누르면 기존 키매핑을 편집할 수 있으며 실제 패드 연결은 필요하지 않습니다. 지원 범위는 [버전별 변경 안내](UPDATES.md)를 확인하세요.
 
-0.1.8의 세로 기본 피처폰 배치는 십자키·OK가 중앙에 있고, 왼쪽 가장자리에 좌메뉴·통화, 오른쪽 가장자리에 우메뉴·취소가 위아래로 놓입니다. 오른쪽 위 화살표로 십자키를 접고 펼칠 수 있습니다. 접으면 기능키 네 개가 한 줄로 정리되고 숫자키는 유지됩니다. 방향키·OK 한 줄은 게임 화면을 줄이지 않고 남는 공간에 들어갈 때만 표시합니다.
+0.1.9의 세로 기본 피처폰 배치는 십자키·OK가 중앙에 있고, 왼쪽 가장자리에 좌메뉴·통화, 오른쪽 가장자리에 우메뉴·취소가 위아래로 놓입니다. 오른쪽 위 화살표로 십자키를 접고 펼칠 수 있습니다. 접으면 기능키 네 개가 한 줄로 정리되고 숫자키는 유지됩니다. 방향키·OK 한 줄은 게임 화면을 줄이지 않고 남는 공간에 들어갈 때만 표시합니다.
 
 화면 크기, 키패드 표시, 0.5–4배속, 상태바와 진동도 설정할 수 있습니다. 높은 배속의 실제 속도는 기기 성능과 게임에 따라 달라집니다.
+
+## 플레이 기록
+
+더보기의 **플레이 기록**에서 전체 누적 시간과 최근 7일의 일별 막대 그래프를 확인합니다. 게임 아이콘·제목이 있는 목록에서 게임을 선택하면 해당 게임의 기록으로 이동합니다. 이 버전부터 기록되는 시간은 기기 안에 저장합니다.
+
+## USB 디버깅 안내
+
+앱 시작 시 USB 디버깅을 끄라는 안내가 보이면 **개발자 옵션 열기**에서 USB 디버깅을 끈 뒤 앱으로 돌아와 **다시 확인**을 누르세요. 앱이 기기 설정을 자동으로 변경하지 않습니다.
 
 ## 업데이트 확인
 
@@ -56,7 +64,7 @@
 
 ## Quick start in English
 
-This guide describes 0.1.8 (Alpha), submitted for review on September 12, 2026. Play availability is pending; 0.1.7 remains the version confirmed available. Follow the [testing guide](TESTING.md#english), join the testers group, opt in, and install through Google Play. Android 8.0 or later is required.
+This guide describes 0.1.9 (Alpha), submitted for review on September 12, 2026. Play availability is pending; 0.1.8 remains the version confirmed available. Follow the [testing guide](TESTING.md#english), join the testers group, opt in, and install through Google Play. Android 8.0 or later is required.
 
 Put your game files in a dedicated Android folder and select it in WIPI-X. **Keep each individual game's ZIP intact.** Extract only a separate outer collection archive that contains several game ZIPs. Do not unpack the JAR or resources inside an individual game package. Subfolders are included when scanning. Use the scan button after adding new files, or import several files directly.
 
@@ -64,9 +72,11 @@ Switch between recent/title sorting and grid/list views directly in the library.
 
 Settings include classic and flat keypads, portrait and landscape layouts, Korean Cheonjiin and multi-tap English input, gamepad mappings, themes, and playback speed. In the mapping screen, pressing a controller button highlights its position; use the on-screen controls to edit and apply mappings.
 
-The Retro skin setting, introduced in 0.1.7, is available for WIPI-X 16-bit Silver and supported `.deltaskin` imports. Tap the skin buttons to edit the same global/per-game mappings; a physical pad is not required. In the default portrait layout in 0.1.8, the D-pad and OK are centered, with Left Menu above Call at the left edge and Right Menu above Cancel at the right edge. Use the arrow to fold the D-pad into a shorter layout with one row of function keys and unchanged number keys. A direction/OK row appears only when spare space permits it without shrinking the game. See the [release notes](UPDATES.md) for supported skin formats.
+The Retro skin setting, introduced in 0.1.7, is available for WIPI-X 16-bit Silver, Retro Graphite and supported `.deltaskin` imports. Tap the skin buttons to edit the same global/per-game mappings; a physical pad is not required. In the default portrait layout in 0.1.9, the D-pad and OK are centered, with Left Menu above Call at the left edge and Right Menu above Cancel at the right edge. Use the arrow to fold the D-pad into a shorter layout with one row of function keys and unchanged number keys. A direction/OK row appears only when spare space permits it without shrinking the game. See the [release notes](UPDATES.md) for supported skin formats.
 
-Open settings under More. Drag and resize keypad groups on the virtual overlay canvas, select Use this layout, then Apply. Portrait and landscape layouts are separate. A fresh app launch checks public releases; skip an offered version to stop its automatic notice, or check manually under More → App update. On version 0.1.4 or earlier, check Google Play directly without uninstalling the app.
+Open settings under More. Drag and resize keypad groups on the virtual overlay canvas, select Use this layout, then Apply. Portrait and landscape layouts are separate. Opacity supports 0–100%; fully transparent controls remain touchable. A fresh app launch checks public releases; skip an offered version to stop its automatic notice, or check manually under More → App update. On version 0.1.4 or earlier, check Google Play directly without uninstalling the app.
+
+Under More, Play history shows overall and per-game totals and daily bars for the last seven days, with icons and titles linking to game details. Recording starts with this version and stays on the device. If a USB debugging notice appears, open Developer options, disable USB debugging, return to the app and select Check again.
 
 An in-app update notice may precede Play availability. Check again later if Play does not yet offer the update.
 
