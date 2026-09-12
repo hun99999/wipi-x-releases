@@ -2,9 +2,9 @@
 
 [프로젝트 홈](../README.md) · [전체 게임 카탈로그](https://wipix.valiostudio.com/ko/games/)
 
-갱신: 2026-09-08
+갱신: 2026-09-12
 
-1차 대상은 **31개(KTF 18개 · LGT 13개)**입니다. 기존 28개에 **리듬스타(KTF), 2010프로야구(LGT), 템페스트(LGT)**를 포함했습니다. 아래 목록은 테스트 대상이며 현재 모두 **최종 호환 확인 전**입니다. 지원 확정, 모든 Android 기기에서의 동작, 전체 게임 진행 또는 엔딩 확인을 뜻하지 않습니다.
+1차 대상은 **31개(KTF 18개 · LGT 13개)**입니다. 기존 28개에 **리듬스타(KTF), 2010프로야구(LGT), 템페스트(LGT)**를 포함했습니다. 아래 목록은 초기 선정 기록입니다. **0.1.10은 정확히 검증한 2010슈퍼사커(LGT)·2010프로야구(LGT)·메이플스토리 도적편(KTF) 3개 파일을 지원됨으로 표시합니다.** 그 밖의 최종 판정은 대기 중입니다. 대표 플레이·주요 기능·정상 저장과 재실행을 확인했으며, 모든 Android 기기·전체 진행·엔딩을 확인한 결과는 아닙니다. [0.1.10 릴리즈 노트](UPDATES.md)의 범위와 알려진 문제를 확인하세요. Play 제공은 대기 중입니다.
 
 1차는 시작 목록입니다. 이후에도 게임을 추가하고, 확인한 파일과 앱 버전을 기준으로 호환 결과를 누적합니다. 파일의 `_wipiX호환.zip` 이름이나 다운로드 제공 여부만으로 최종 지원을 판정하지 않습니다.
 
@@ -30,7 +30,7 @@
 | KTF | 질주쾌감스케쳐 1 | 검증 중 |
 | KTF | 질주쾌감스케쳐 2 | 검증 중 |
 | KTF | 크로노스윙 | 검증 중 |
-| LGT | 2010프로야구 | 검증 중 |
+| LGT | 2010프로야구 | 0.1.10 지원됨 — 정확한 검증 파일 |
 | LGT | 놈ZERO | 검증 중 |
 | LGT | 레전드오브마스터 | 검증 중 |
 | LGT | 슈퍼액션히어로 1 | 검증 중 |
@@ -48,7 +48,7 @@
 
 ## English
 
-The initial test roster contains **31 entries: 18 KTF and 13 LGT**. Rhythm Star (KTF), 2010 Pro Baseball (LGT), and Tempest (LGT) have been added to the previous 28. **All entries are awaiting final compatibility verification.** This is a test roster, not a guarantee of support, complete playthroughs, or compatibility with every Android device. SKT is not currently supported by the app.
+The initial test roster contains **31 entries: 18 KTF and 13 LGT**. Rhythm Star (KTF), 2010 Pro Baseball (LGT), and Tempest (LGT) have been added to the previous 28. Version **0.1.10 marks the exact verified files for 2010 Super Soccer (LGT), 2010 Pro Baseball (LGT), and MapleStory: Thief Edition (KTF) as Supported**. Other final decisions remain pending. This covers representative play, main features, normal saving and relaunching, without certifying complete playthroughs or every Android device. Play availability is pending; see the [release notes](UPDATES.md) for scope and limitations. SKT is not currently supported by the app.
 
 Compatibility depends on the exact game file, carrier edition, and WIPI-X version. The website's broader game catalog is a reference archive and does not imply that all listed titles are supported.
 

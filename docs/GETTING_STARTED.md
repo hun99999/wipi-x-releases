@@ -2,7 +2,7 @@
 
 [프로젝트 홈](../README.md) · [테스트 참여 안내](TESTING.md) · [앱 출시 안내](https://wipix.valiostudio.com/ko/download/)
 
-이 문서는 0.1.9 테스트 앱의 사용 흐름을 설명합니다. 2026년 9월 12일 심사 요청했으며 Play 제공은 대기 중입니다. 현재 제공 확인 버전은 0.1.8입니다. Android 8.0 이상이 필요하며, 앱 설치와 업데이트는 Google Play에서 제공합니다. [테스트 참여 안내](TESTING.md)에 따라 그룹 가입과 Play 테스트 참여를 마친 뒤 설치하세요.
+이 문서는 0.1.10 테스트 앱의 사용 흐름을 설명합니다. 2026년 9월 12일 심사 요청했으며 Play 제공은 대기 중입니다. 현재 제공 확인 버전은 0.1.9입니다. Android 8.0 이상이 필요하며, 앱 설치와 업데이트는 Google Play에서 제공합니다. [테스트 참여 안내](TESTING.md)에 따라 그룹 가입과 Play 테스트 참여를 마친 뒤 설치하세요.
 
 ## 게임 가져오기
 
@@ -15,6 +15,8 @@
 파일을 개별 선택해 가져오는 방법도 사용할 수 있습니다. 앱은 가져온 사본을 사용하므로 원본 폴더를 변경하거나 삭제해도 그 변경이 앱 내부 게임 삭제로 자동 반영되지는 않습니다.
 
 `게임명_통신사_wipiX호환.zip`은 별도로 관리하는 파일의 이름 규칙입니다. 이름만으로 모든 기능의 지원을 뜻하지는 않습니다. 기존 `.wipix` 게임 파일도 불러올 수 있습니다.
+
+이번 호환 교정은 앱 실행에 적용됩니다. 기존 게임 ZIP을 다시 다운로드할 필요는 없습니다. 같은 제목이라도 다른 통신사·다른 파일의 지원 여부는 다를 수 있습니다.
 
 ## 라이브러리 정리
 
@@ -64,7 +66,9 @@
 
 ## Quick start in English
 
-This guide describes 0.1.9 (Alpha), submitted for review on September 12, 2026. Play availability is pending; 0.1.8 remains the version confirmed available. Follow the [testing guide](TESTING.md#english), join the testers group, opt in, and install through Google Play. Android 8.0 or later is required.
+This guide describes 0.1.10 (Alpha), submitted for review on September 12, 2026. Play availability is pending; 0.1.9 remains the version confirmed available. Follow the [testing guide](TESTING.md#english), join the testers group, opt in, and install through Google Play. Android 8.0 or later is required.
+
+The compatibility corrections apply during execution, so existing game ZIPs do not need to be downloaded again. Support status depends on the exact file and carrier edition.
 
 Put your game files in a dedicated Android folder and select it in WIPI-X. **Keep each individual game's ZIP intact.** Extract only a separate outer collection archive that contains several game ZIPs. Do not unpack the JAR or resources inside an individual game package. Subfolders are included when scanning. Use the scan button after adding new files, or import several files directly.
 

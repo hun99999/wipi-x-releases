@@ -4,6 +4,57 @@
 
 Google Play에 심사 요청하거나 배포한 버전의 변경사항을 최신순으로 기록하며, 각 버전의 제공 상태를 구분합니다. 알파·베타 기록도 정식 출시 후 계속 보존합니다.
 
+## WIPI-X 0.1.10 — 축구·야구·메이플 호환 개선
+
+2010슈퍼사커·2010프로야구의 로컬 G포인트 기능과 메이플스토리 도적편의 화면·속도 문제를 개선했습니다. 기존 0.1.9의 새 키패드 스킨과 플레이 기록도 함께 사용할 수 있습니다.
+
+- **배포 채널:** Google Play 비공개 테스트(Alpha)
+- **앱 버전 / 빌드 번호:** 0.1.10 / 11
+- **심사 요청일:** 2026-09-12 (한국 시간)
+- **Play 상태:** 심사 요청 완료 · 제공 대기. GitHub 기록을 먼저 게시하며, Play에 업데이트가 표시되기까지 시간이 걸릴 수 있습니다. 현재 제공이 확인된 버전은 0.1.9입니다.
+
+### 개선 및 수정
+
+- **2010슈퍼사커(LGT):** G포인트 구매가 실패하던 문제를 수정했습니다. 게임 안에서 선택한 수량의 포인트를 로컬로 반영하고 정상 저장·재실행으로 이어갑니다. 실제 통신사 청구나 외부 결제는 발생하지 않습니다.
+- **2010프로야구(LGT):** G포인트 충전 오류를 수정했습니다. 로컬 충전 포인트로 아이템을 사용하고, 선수 능력치와 남은 포인트를 정상 저장·재실행으로 유지할 수 있습니다.
+- **메이플스토리 도적편(KTF):** 메뉴를 열 때의 이미지 크기 제한, 작은 수련 맵에서 화면이 위아래로 흔들리는 문제, 게임 속도 ‘상’에서 지나치게 빨라지는 동작을 보정했습니다. ‘중’ 설정과 앱의 배속 선택은 유지합니다.
+- **지원 판정:** 정확한 검증 파일의 2010슈퍼사커·2010프로야구·메이플스토리 도적편을 앱에서 ‘지원됨’으로 표시합니다. 제목이 같아도 다른 통신사나 다른 파일에는 같은 판정을 적용하지 않습니다.
+- **레전드오브마스터(LGT):** 새 게임 대사가 비거나 읽기 전에 넘어가는 문제를 수정하고, 메뉴 목록을 읽고 비우는 처리 누락을 보완했습니다. 이 게임은 계속 검증 대기 상태입니다.
+
+### 지원 범위와 알려진 문제
+
+이번 지원 판정은 대표 플레이, 주요 기능과 정상 저장·재실행 확인에 근거합니다. 장기 플레이·후반·엔딩, 모든 기기의 일정한 속도·소리 품질을 보장하지 않습니다. 축구·야구의 일부 구간에는 프레임 지연과 소리 간격이 남을 수 있고, 온라인 랭킹·선물·서버 백업은 지원 범위 밖입니다. 메이플의 속도 보정은 원래 피처폰과 같은 속도임을 확인한 결과는 아닙니다.
+
+레전드오브마스터의 이전 메뉴 오류는 제보 당시와 같은 버튼 순서를 확보하지 못했습니다. 대사 개선과 제한된 메뉴 보완을 전체 플레이 완료로 안내하지 않습니다.
+
+리듬스타(KTF) 메인 화면의 소리 간격, 놈ZERO(LGT)의 배경음 겹침 제보, 하이브리드1(LGT)의 일부 기기 속도 저하와 게임 전환 후 간헐적 입력 무반응은 계속 확인 중입니다. 입력이 멈추면 게임을 정상 종료하고 앱을 완전히 종료한 뒤 다시 실행해 주세요.
+
+기존 앱을 삭제하지 않고 같은 Google 계정으로 업데이트해 주세요. 이번 호환 교정은 앱 실행에 적용하며 기존 게임 ZIP을 다시 받을 필요가 없습니다. 앱에는 게임 파일이 포함되지 않습니다. 앱의 업데이트 안내가 Play 반영보다 먼저 보일 수 있습니다.
+[테스트 참여 안내](https://github.com/hun99999/wipi-x-releases/blob/main/docs/TESTING.md) · [문제 제보](https://github.com/hun99999/wipi-x-releases/issues/new/choose)
+
+### English
+
+WIPI-X 0.1.10 (build 11) improves local G-point features in 2010 Super Soccer and 2010 Pro Baseball, plus menus, camera movement and the high-speed setting in MapleStory: Thief Edition. It retains the keypad skins and play-time history introduced in 0.1.9.
+
+- **Channel:** Google Play closed test (Alpha).
+- **Submitted for review:** September 12, 2026 (Korea time).
+- **Play status:** Submitted; availability is pending. These notes precede Play availability. Version 0.1.9 is currently confirmed available.
+
+- **2010 Super Soccer (LGT):** Fixed failed G-point purchases. Selected points are granted locally and persist through normal saving and relaunching, without carrier billing or external payment.
+- **2010 Pro Baseball (LGT):** Fixed G-point charging. Locally granted points can be spent on items, with player stats and remaining points preserved by normal saving and relaunching.
+- **MapleStory: Thief Edition (KTF):** Fixed the menu image-size limit and camera shaking on a small training map; constrained excessive speed under the game's High setting. The Medium setting and app speed selection remain available.
+- **Support status:** The exact verified files for those three games are marked Supported in the app. This does not cover different files or carrier editions with the same title.
+- **Legend of Master (LGT):** Fixed empty dialogue or dialogue advancing before it could be read, and completed missing menu-list read/clear handling. The game remains pending verification.
+
+Support decisions cover representative play, main features and normal save/relaunch checks. They do not certify long sessions, late-game content, endings, or consistent speed and audio quality on every device. Soccer and baseball may still show frame delays or audio gaps; online rankings, gifts and server backups are outside scope. MapleStory's speed adjustment has not been validated against original feature-phone timing.
+
+The exact button sequence behind the previously reported Legend of Master menu error remains unavailable. Dialogue improvements and limited menu fixes do not establish full-game compatibility.
+
+Investigations continue for main-screen audio gaps in Rhythm Star (KTF), reported overlapping music in Nom ZERO (LGT), low speed on some devices in Hybrid 1 (LGT), and intermittent input loss after switching games. If input stops, exit the game normally, fully close the app, and reopen it.
+
+Update through Google Play using the same account without uninstalling the app. The compatibility corrections apply during execution, so existing game ZIPs do not need to be downloaded again. No games are bundled with the app. The in-app notice may appear before Play offers the update.
+See the [testing guide](https://github.com/hun99999/wipi-x-releases/blob/main/docs/TESTING.md#english) and [support guide](https://github.com/hun99999/wipi-x-releases/blob/main/SUPPORT.md).
+
 ## WIPI-X 0.1.9 — 키패드 스킨·플레이 기록·조작 개선
 
 피처폰·레트로 키패드의 새 스킨과 게임별 플레이 기록을 추가하고, 화면 배치와 키 입력 진동을 개선했습니다. 키패드 오버레이 불투명도는 0%까지 조절할 수 있습니다.
