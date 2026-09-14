@@ -4,6 +4,66 @@
 
 Google Play에 심사 요청하거나 배포한 버전의 변경사항을 최신순으로 기록하며, 각 버전의 제공 상태를 구분합니다. 알파·베타 기록도 정식 출시 후 계속 보존합니다.
 
+## WIPI-X 0.1.22 — 호환·저장·터치 조작 개선
+
+0.1.11 이후의 게임별 호환 수정과 저장 보호, 터치 조작·화면 배치 개선을 하나의 Alpha 업데이트로 제공합니다.
+
+배포 채널: Alpha
+앱 버전/빌드: 0.1.22/code23
+심사 요청일: 2026-09-15 (한국 시간)
+배포 상태: 심사 전송 요청 완료 · Play 자동 검사 진행 중 · 제공 대기. 현재 제공이 확인된 버전은 0.1.11입니다.
+
+### 개선 및 수정
+
+- **지원 게임 추가:** 정확한 검증 파일의 이노티아 연대기 KTF, 검은방2·오셔너스·와일드프론티어1 LGT를 앱에서 ‘지원됨’으로 표시합니다. 기존 5개를 포함해 지원 판정 파일은 9개입니다.
+- **저장 보호:** 게임 안에서 저장한 뒤 Android 홈 화면으로 이동하는 등 앱이 백그라운드로 전환될 때 저장 내용을 기기에 반영하도록 보완했습니다. 게임 내 저장과 정상 종료, 필요한 저장 백업을 계속 사용해 주세요.
+- **게임별 기능:** 이노티아 KTF와 테일즈위버 막시민편의 새 저장 날짜, 검은방2의 키워드·프로필 열쇠 해금, 오셔너스의 소리와 CASH 상품, 와일드프론티어1·2의 로컬 아이템 기능을 보완했습니다. 실제 외부 결제나 통신사 청구는 발생하지 않습니다.
+- **추가 호환 보완:** 와일드프론티어2의 실행 파일 처리와 테일즈위버 이스핀·막시민·루시안칼츠편의 문자·대사·메뉴·소리 및 이미지 처리를 수정했습니다. 이 게임들의 앱 내 최종 지원 판정은 아직 검증 대기입니다.
+- **터치 조작:** 한 손가락으로 키를 누른 상태에서 다른 손가락이 닿은 뒤, 먼저 누른 손가락을 다른 키로 옮길 때 입력이 반영되지 않던 문제를 수정했습니다.
+- **화면 배치:** 일부 기기의 넓은 뒤로 가기 제스처 영역 때문에 게임·라이브러리·설정 화면에 과도한 좌우 여백이 생기거나 양손 키패드 배치가 제한되던 문제를 수정했습니다. 게임의 원래 비율과 필수 시스템 영역은 유지합니다.
+- **KTF 화면 처리:** 화면 복사에 쓰는 임시 메모리 할당을 줄였습니다. 일부 구간의 끊김을 모두 해결한 것은 아니며 게임·기기별 성능을 계속 확인합니다.
+
+### 확인 범위와 알려진 문제
+
+지원 판정은 정확한 게임 파일의 대표 실행·조작·화면·소리·저장 및 앱 재실행 복구 확인에 근거합니다. 다른 판본이나 모든 Android 기기, 후반·엔딩까지 확인한 결과는 아닙니다. 터치와 화면 배치는 자동 검사 및 테스트기기 확인을 포함하며, 제보된 ZTE 기기와 S24 Ultra의 Android 16에서는 아직 직접 확인하지 못했습니다.
+
+미니게임천국2의 속도·입력 지연과 테라의 타이틀 소리 끊김은 확인 중입니다. 와일드프론티어2의 실제 소리 판정과 테일즈위버 3편의 최종 지원 등록도 남아 있습니다. 이전에 안내한 리듬스타의 소리 간격, 놈ZERO의 배경음 겹침 제보 등은 해결 완료로 처리하지 않았습니다.
+
+기존 앱을 삭제하지 않고 Google Play에서 업데이트해 주세요. 게임 ZIP을 다시 받을 필요는 없으며, 앱에는 게임 파일이 포함되지 않습니다. 앱의 새 버전 안내가 Play 제공보다 먼저 보일 수 있습니다.
+
+테스트 참여: https://play.google.com/apps/testing/com.valiostudio.wipix
+릴리즈 기록: https://github.com/hun99999/wipi-x-releases/releases
+
+### English
+
+This Alpha update combines game compatibility fixes, save protection, touch input and screen layout improvements made since 0.1.11.
+
+Channel: Alpha
+Version/build: 0.1.22/code23
+Submitted for review: September 15, 2026 (Korea time).
+Status: Submission requested; Play automated checks are running and availability is pending. Version 0.1.11 is currently confirmed available.
+
+### Improvements and fixes
+
+- **Supported games:** The exact verified files for Inotia Chronicles (KTF), Black Room 2, Oceanus and Wild Frontier 1 (LGT) now appear as Supported. Together with the previous five, nine game files have this status.
+- **Save protection:** In-game saves are written to device storage when the app moves to the background, such as when returning to Android Home. Continue saving inside the game, exiting normally and exporting backups when needed.
+- **Game features:** Improved new save dates in Inotia (KTF) and TalesWeaver: Maximin, keyword and profile key unlocks in Black Room 2, audio and CASH items in Oceanus, and local item features in Wild Frontier 1 and 2. No external payment or carrier billing occurs.
+- **Additional compatibility:** Fixed executable handling in Wild Frontier 2 and text, dialogue, menu, audio and image handling in TalesWeaver: Ispin, Maximin and Lucian. These games still await final Supported status in the app.
+- **Touch controls:** Fixed missing key changes when the first finger slides to another key after a second finger has touched the keypad.
+- **Screen layout:** Fixed excessive side margins and restrictions on split keypad layouts caused by wide back-gesture areas on some devices. This covers the game, library and settings screens while retaining the original game aspect ratio and required system areas.
+- **KTF rendering:** Reduced temporary memory allocation during screen copies. This does not resolve every stutter; game and device performance checks continue.
+
+### Scope and known issues
+
+Supported status applies to exact game files checked for representative execution, controls, display, audio, saving and recovery after restarting the app. It does not certify different editions, every Android device, late-game content or endings. Touch and layout checks include automated tests and test devices; the reported ZTE device and S24 Ultra running Android 16 have not been tested directly.
+
+Investigations continue for MiniGame Paradise 2 speed and input latency, and title-screen audio stutter in Terra. Wild Frontier 2 still awaits the final listening judgment, and the three TalesWeaver editions await final support registration. Previously reported issues, including Rhythm Star audio gaps and overlapping music in Nom ZERO, remain unresolved.
+
+Update through Google Play without uninstalling the existing app. Existing game ZIPs remain usable and no games are bundled. The in-app update notice may appear before Play offers the new version.
+
+Join testing: https://play.google.com/apps/testing/com.valiostudio.wipix
+Release history: https://github.com/hun99999/wipi-x-releases/releases
+
 ## WIPI-X 0.1.11 — 호환 게임 추가와 소리·날짜 수정
 
 붕어빵타이쿤3 KTF와 레전드오브마스터 LGT의 대표 기능 검증을 지원 게임 목록에 반영하고, 일부 게임 음악의 음 종료와 붕어빵타이쿤3의 날짜 처리를 수정했습니다.

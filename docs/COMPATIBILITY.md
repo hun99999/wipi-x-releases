@@ -2,9 +2,9 @@
 
 [프로젝트 홈](../README.md) · [전체 게임 카탈로그](https://wipix.valiostudio.com/ko/games/)
 
-갱신: 2026-09-12
+갱신: 2026-09-15
 
-1차 대상은 **31개(KTF 18개 · LGT 13개)**입니다. 기존 28개에 **리듬스타(KTF), 2010프로야구(LGT), 템페스트(LGT)**를 포함했습니다. 아래 목록은 초기 선정 기록입니다. **0.1.11은 정확히 검증한 2010슈퍼사커(LGT)·2010프로야구(LGT)·메이플스토리 도적편(KTF)·레전드오브마스터(LGT)·붕어빵타이쿤3(KTF) 5개 파일을 지원됨으로 표시합니다.** 그 밖의 최종 판정은 대기 중입니다. 대표 플레이·주요 기능·정상 저장과 재실행을 확인했으며, 모든 Android 기기·전체 진행·엔딩을 확인한 결과는 아닙니다. [0.1.11 릴리즈 노트](UPDATES.md)의 범위와 알려진 문제를 확인하세요. Play 제공은 대기 중입니다.
+1차 대상은 **31개(KTF 18개 · LGT 13개)**입니다. 기존 28개에 **리듬스타(KTF), 2010프로야구(LGT), 템페스트(LGT)**를 포함했습니다. 아래 목록은 초기 선정 기록입니다. **0.1.22는 정확히 검증한 2010슈퍼사커(LGT)·2010프로야구(LGT)·메이플스토리 도적편(KTF)·레전드오브마스터(LGT)·붕어빵타이쿤3(KTF)·이노티아 연대기(KTF)·검은방2(LGT)·오셔너스(LGT)·와일드프론티어1(LGT) 9개 파일을 지원됨으로 표시합니다.** 그 밖의 최종 판정은 대기 중입니다. 대표 플레이·주요 기능·정상 저장과 재실행을 확인했으며, 모든 Android 기기·전체 진행·엔딩을 확인한 결과는 아닙니다. [0.1.22 릴리즈 노트](UPDATES.md)의 범위와 알려진 문제를 확인하세요. **0.1.22 (Alpha)**는 2026년 9월 15일 심사 전송을 요청했습니다. Play 자동 검사 진행 중이며 제공은 대기 중입니다. 현재 제공이 확인된 버전은 **0.1.11**입니다.
 
 1차는 시작 목록입니다. 이후에도 게임을 추가하고, 확인한 파일과 앱 버전을 기준으로 호환 결과를 누적합니다. 파일의 `_wipiX호환.zip` 이름이나 다운로드 제공 여부만으로 최종 지원을 판정하지 않습니다.
 
@@ -48,11 +48,11 @@
 
 ## 추가로 확인한 게임
 
-초기 목록 외에2010슈퍼사커(LGT)·메이플스토리 도적편(KTF)·붕어빵타이쿤3(KTF)의 정확한 검증 파일도 지원 목록에 반영했습니다.
+초기 목록 외에2010슈퍼사커(LGT)·메이플스토리 도적편(KTF)·붕어빵타이쿤3(KTF)·이노티아 연대기(KTF)·검은방2(LGT)·오셔너스(LGT)·와일드프론티어1(LGT)의 정확한 검증 파일도 지원 목록에 반영했습니다.
 
 ## English
 
-The initial test roster contains **31 entries: 18 KTF and 13 LGT**. Rhythm Star (KTF), 2010 Pro Baseball (LGT), and Tempest (LGT) have been added to the previous 28. Version **0.1.11 marks the exact verified files for 2010 Super Soccer (LGT), 2010 Pro Baseball (LGT), MapleStory: Thief Edition (KTF), Legend of Master (LGT), and Bungeoppang Tycoon 3 (KTF) as Supported**. Other final decisions remain pending. This covers representative play, main features, normal saving and relaunching, without certifying complete playthroughs or every Android device. Play availability is pending; see the [release notes](UPDATES.md) for scope and limitations. SKT is not currently supported by the app.
+The initial test roster contains **31 entries: 18 KTF and 13 LGT**. Rhythm Star (KTF), 2010 Pro Baseball (LGT), and Tempest (LGT) have been added to the previous 28. Version **0.1.22 marks the exact verified files for 2010 Super Soccer (LGT), 2010 Pro Baseball (LGT), MapleStory: Thief Edition (KTF), Legend of Master (LGT), Bungeoppang Tycoon 3 (KTF), Inotia Chronicles (KTF), Black Room 2 (LGT), Oceanus (LGT), and Wild Frontier 1 (LGT) as Supported**. Other final decisions remain pending. This covers representative play, main features, normal saving and relaunching, without certifying complete playthroughs or every Android device. Version 0.1.22 was submitted for review on September 15, 2026; Play automated checks are running and availability is pending. Version 0.1.11 is currently confirmed available. See the [release notes](UPDATES.md) for scope and limitations. SKT is not currently supported by the app.
 
 Compatibility depends on the exact game file, carrier edition, and WIPI-X version. The website's broader game catalog is a reference archive and does not imply that all listed titles are supported.
 
