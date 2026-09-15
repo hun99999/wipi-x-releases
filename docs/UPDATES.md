@@ -4,6 +4,44 @@
 
 Google Play에 심사 요청하거나 배포한 버전의 변경사항을 최신순으로 기록하며, 각 버전의 제공 상태를 구분합니다. 알파·베타 기록도 정식 출시 후 계속 보존합니다.
 
+## WIPI-X 0.1.35 — 미니게임천국 2·이노티아 2 지원 목록 반영
+
+미니게임천국 2(KTF)와 이노티아 연대기 2(KTF)의 검증 결과를 앱 지원 목록에 반영했습니다. 확인을 마친 정확한 게임 파일은 라이브러리에서 ‘지원됨’으로 표시합니다.
+
+- 배포 채널: Google Play 비공개 테스트 Alpha
+- 앱 버전 / 빌드 번호: 0.1.35 / 36
+- 심사 요청일: 2026년 9월 16일 (한국 시간)
+- 상태: 심사 요청 완료 · Play 제공 대기. 현재 제공이 확인된 버전은 0.1.33입니다.
+
+### 개선 및 수정
+
+- 미니게임천국 2(KTF)와 이노티아 연대기 2(KTF)의 검증된 파일을 지원 목록에 반영했습니다.
+- 지원 판정을 받은 파일은 기존 12개에서 14개로 늘었습니다. 다른 파일의 판정은 유지합니다.
+- 기존 게임 ZIP·저장·설정과 이전 버전의 실행 동작을 유지합니다. 게임 파일을 다시 받을 필요는 없습니다.
+
+### 확인 범위와 알려진 문제
+
+두 게임은 대표 플레이·주요 기능·저장과 재실행 확인, 사용자 직접 플레이 피드백을 바탕으로 지원 판정을 반영했습니다. 같은 제목이라도 통신사나 파일 내용이 다른 판본에는 이 판정이 적용되지 않습니다. 모든 기기와 전체 진행을 검증한 결과는 아닙니다. 테라 타이틀·리듬스타 메인 화면 등 남아 있는 소리 문제는 계속 확인 중입니다.
+
+### 업데이트 안내
+
+공식 설치와 업데이트는 [Google Play](https://play.google.com/store/apps/details?id=com.valiostudio.wipix)에서 제공합니다. [테스트 참여 안내](https://github.com/hun99999/wipi-x-releases/blob/main/docs/TESTING.md)와 [문제 제보](https://github.com/hun99999/wipi-x-releases/issues)를 참고해 주세요.
+
+### English
+
+The verified files for MiniGame Paradise 2 (KTF) and Inotia Chronicles 2 (KTF) are now marked Supported in the library.
+
+- Channel: Google Play closed testing, Alpha
+- Version / build: 0.1.35 / 36
+- Submitted for review: September 16, 2026 (KST)
+- Status: Submitted for review; awaiting Play availability. Version 0.1.33 is currently confirmed available.
+
+The number of Supported game files increases from twelve to fourteen. Other file classifications and the previous version's runtime behavior remain unchanged. Existing game ZIPs, saves and settings remain compatible; game files do not need to be downloaded again.
+
+Support reflects representative play, main features, saving and relaunching, and direct-play feedback. It applies to the exact verified files, not other carrier editions or different files with the same title. It does not certify every device or a complete playthrough. Remaining audio issues, including the Tera title and Rhythm Star main screen, are still being investigated.
+
+Install and update through [Google Play](https://play.google.com/store/apps/details?id=com.valiostudio.wipix). See [testing instructions](https://github.com/hun99999/wipi-x-releases/blob/main/docs/TESTING.md) and [report issues](https://github.com/hun99999/wipi-x-releases/issues).
+
 ## WIPI-X 0.1.33 — 리듬스타 타이머 동작 복원
 
 리듬스타(KTF)에서 곡이 진행될수록 싱크가 어긋난다는 제보에 따라 타이머 처리를 이전 동작으로 되돌렸습니다. 롤백 후 사용자 직접 플레이에서 싱크가 정상으로 느껴졌다는 피드백을 받았습니다.
