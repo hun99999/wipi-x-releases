@@ -2,7 +2,7 @@
 
 [프로젝트 홈](../README.md) · [릴리즈 노트](https://github.com/hun99999/wipi-x-releases/releases) · [처음 사용하기](GETTING_STARTED.md)
 
-**0.1.28 (Alpha)**는 2026년 9월 15일 오후 3:58부터 Google Play 알파 테스터에게 제공 중입니다. Play Console의 제공 상태를 확인했습니다. 아래 참여 절차로 설치하거나 기존 앱을 업데이트해 주세요.
+**0.1.29 (Alpha)**는 심사 요청을 완료했으며 Play 제공을 기다리고 있습니다. 현재 제공이 확인된 버전은 **0.1.28**입니다. 아래 참여 절차로 설치하거나 기존 앱을 업데이트해 주세요.
 
 ## 참여 순서
 
@@ -17,15 +17,15 @@
 ## 첫 테스트 대상
 
 - Android 8.0 이상을 사용하는 대한민국의 만 18세 이상 사용자.
-- 현재 제공 확인 버전은 0.1.28 Alpha입니다. 공식 설치와 업데이트는 Google Play에서 제공합니다.
+- 현재 제공 확인 버전은 0.1.28 Alpha이며 0.1.29는 심사 요청 후 제공 대기 중입니다. 공식 설치와 업데이트는 Google Play에서 제공합니다.
 - 앱에는 게임 파일이 포함되어 있지 않습니다. 이용 권한이 있는 파일을 준비해 주세요.
-- 초기 테스트 목록은 [31개(KTF 18개 · LGT 13개)](COMPATIBILITY.md)입니다. 0.1.28은 정확히 검증한 축구·야구·메이플 도적편·레전드·붕어빵3·이노티아·검은방2·오셔너스·와일드프론티어1·테일즈위버 이스핀·막시민·루시안칼츠편 12개를 지원됨으로 표시하며, 나머지는 검증 대기를 유지합니다. 게임별 범위는 [이번 릴리즈 노트](UPDATES.md)를 확인하세요.
+- 초기 테스트 목록은 [31개(KTF 18개 · LGT 13개)](COMPATIBILITY.md)입니다. 0.1.29는 정확히 검증한 축구·야구·메이플 도적편·레전드·붕어빵3·이노티아·검은방2·오셔너스·와일드프론티어1·테일즈위버 이스핀·막시민·루시안칼츠편 12개를 지원됨으로 표시하며, 나머지는 검증 대기를 유지합니다. 게임별 범위는 [이번 릴리즈 노트](UPDATES.md)를 확인하세요.
 
 문제가 있으면 기기 모델·Android 버전·앱 버전·게임과 통신사·재현 순서를 적어 [GitHub Issues](https://github.com/hun99999/wipi-x-releases/issues/new/choose) 또는 [지원 이메일](mailto:wipix@valiostudio.com)로 알려 주세요. 공개 제보에는 게임 원본과 저장 파일을 첨부하지 말고, 스크린샷의 게임 내용과 개인정보를 가려 주세요.
 
 ## English
 
-**0.1.28 (Alpha)** is available to Google Play Alpha testers as of September 15, 2026 at 15:58 KST, confirmed in Play Console. Complete the group membership and Play opt-in steps below before installing through Google Play.
+**0.1.29 (Alpha)** has been submitted for review and is awaiting Play availability. **0.1.28** is currently confirmed available. Complete the group membership and Play opt-in steps below before installing through Google Play.
 
 1. Join the [WIPI-X testers group](https://groups.google.com/g/wipi-x-testers/about) using the Google account you use for Google Play.
 2. Use the **same account** to [opt in to the Google Play test](https://play.google.com/apps/testing/com.valiostudio.wipix).
@@ -33,6 +33,6 @@
 
 Existing users should update through Google Play without uninstalling the app. Version 0.1.5 and later also support manual checks under More → App update. Check manually if you previously skipped the update notice.
 
-Joining the group does not automatically opt you into the Play test. The initial test is configured for users aged 18 or older in South Korea, on Android 8.0 or later. The app does not include game files. The [31-game roster](COMPATIBILITY.md) records the initial selection. Version 0.1.28 marks the exact verified files for 2010 Super Soccer (LGT), 2010 Pro Baseball (LGT), MapleStory: Thief Edition (KTF), Legend of Master (LGT), Bungeoppang Tycoon 3 (KTF), Inotia Chronicles (KTF), Black Room 2 (LGT), Oceanus (LGT), Wild Frontier 1 (LGT), and TalesWeaver: Ispin, Maximin and Lucian (LGT) as Supported; other final decisions remain pending. See the [release notes](UPDATES.md) for scope.
+Joining the group does not automatically opt you into the Play test. The initial test is configured for users aged 18 or older in South Korea, on Android 8.0 or later. The app does not include game files. The [31-game roster](COMPATIBILITY.md) records the initial selection. Version 0.1.29 marks the exact verified files for 2010 Super Soccer (LGT), 2010 Pro Baseball (LGT), MapleStory: Thief Edition (KTF), Legend of Master (LGT), Bungeoppang Tycoon 3 (KTF), Inotia Chronicles (KTF), Black Room 2 (LGT), Oceanus (LGT), Wild Frontier 1 (LGT), and TalesWeaver: Ispin, Maximin and Lucian (LGT) as Supported; other final decisions remain pending. See the [release notes](UPDATES.md) for scope.
 
 Check the [official website](https://wipix.valiostudio.com/en/download/) for installation updates and [support guide](../SUPPORT.md) for reporting problems.

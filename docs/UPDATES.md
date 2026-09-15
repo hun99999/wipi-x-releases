@@ -4,6 +4,56 @@
 
 Google Play에 심사 요청하거나 배포한 버전의 변경사항을 최신순으로 기록하며, 각 버전의 제공 상태를 구분합니다. 알파·베타 기록도 정식 출시 후 계속 보존합니다.
 
+## WIPI-X 0.1.29 — 이노티아2 캐시 아이템 복원
+
+이노티아 연대기2 KTF의 일반 CASH 메뉴에서 두 품목을 무료로 받을 수 있도록 복원한 Alpha 업데이트입니다.
+
+배포 채널: Alpha
+앱 버전/빌드: 0.1.29/code30
+심사 요청일: 2026-09-15 (한국 시간)
+배포 상태: 심사 요청 완료 · Play 제공 대기. 현재 제공이 확인된 버전은 0.1.28입니다.
+
+### 개선 및 수정
+
+- **이노티아2 일반 CASH 메뉴:** 부활의 기도문·강화세트 두 품목을 무료로 받을 수 있습니다. 확인창은 기본 ‘아니오’이며 취소할 수 있습니다. 게임의 원래 가방 용량 확인과 아이템 지급·저장 처리를 사용합니다.
+- **저장 복구 확인:** 실제 테스트 기기에서 취소·두 품목 지급·저장을 확인했고, 앱을 완전히 종료한 뒤 다시 실행해 기존 진행과 보유 아이템이 복구되는 것을 확인했습니다.
+
+### 확인 범위와 알려진 문제
+
+복원 범위는 위 두 품목이며 과거 서버의 전체 상품목록은 아닙니다. CASH 메뉴 진입 시 옛 요금 한도·서버 접속 안내가 남아 있지만 실제 결제나 외부 서비스 연결은 없습니다. 파티 전멸 뒤 나타나는 별도 부활 구매는 아직 연결 실패가 남아 있습니다.
+
+이노티아2의 최종 지원 판정과 소리 확인은 진행 중입니다. 지원 판정 파일은 기존 12개로 유지합니다. 테라 타이틀의 소리 끊김·미니게임천국2의 짧은 소리 지연, 리듬스타·놈ZERO의 기존 소리 제보와 와일드프론티어2의 최종 소리 판정도 이번 업데이트의 해결 항목은 아닙니다.
+
+기존 앱을 삭제하지 않고 Google Play에서 업데이트해 주세요. 게임 ZIP을 다시 받을 필요는 없으며 앱에는 게임 파일이 포함되지 않습니다. 새 버전 안내가 Play 제공보다 먼저 보일 수 있습니다.
+
+테스트 참여: https://play.google.com/apps/testing/com.valiostudio.wipix
+릴리즈 기록: https://github.com/hun99999/wipi-x-releases/releases
+
+### English
+
+This Alpha update restores two free items in the ordinary CASH menu of Inotia Chronicles 2 (KTF).
+
+Channel: Alpha
+Version/build: 0.1.29/code30
+Submitted for review: September 15, 2026 (Korea time).
+Status: Submitted for review; awaiting Play availability. Version 0.1.28 is currently confirmed available.
+
+### Improvements and fixes
+
+- **Inotia 2 ordinary CASH menu:** The items 부활의 기도문 and 강화세트 are available free. Confirmation defaults to No and can be cancelled. The game retains its original inventory-capacity checks, item-grant and save handling.
+- **Save recovery:** On the test device, checked cancellation, both item grants and saving, then fully restarted the app and confirmed recovery of existing progress and owned items.
+
+### Scope and known issues
+
+This restores the two named items, not the complete historical server catalogue. Old payment-limit and server-connection notices remain at CASH-menu entry, but this path makes no real payment or external service connection. The separate revival purchase shown after a party wipe still fails to connect.
+
+Inotia 2's final Supported status and audio checks remain in progress. The existing twelve Supported game files are unchanged. Terra title-screen stutter, brief MiniGame Paradise 2 audio delays, existing Rhythm Star and Nom ZERO audio reports, and the final Wild Frontier 2 audio judgment remain follow-up work.
+
+Update through Google Play without uninstalling. Existing game ZIPs remain usable and no games are bundled. The in-app update notice may appear before Play offers this version.
+
+Join testing: https://play.google.com/apps/testing/com.valiostudio.wipix
+Release history: https://github.com/hun99999/wipi-x-releases/releases
+
 ## WIPI-X 0.1.28 — 게임 호환성과 실행 성능 개선
 
 0.1.22 이후의 게임 호환성과 실행 성능 개선을 묶은 Alpha 업데이트입니다.
