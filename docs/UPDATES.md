@@ -4,6 +4,44 @@
 
 Google Play에 심사 요청하거나 배포한 버전의 변경사항을 최신순으로 기록하며, 각 버전의 제공 상태를 구분합니다. 알파·베타 기록도 정식 출시 후 계속 보존합니다.
 
+## WIPI-X 0.1.30 — 이노티아2 캐시 메뉴 진입 개선
+
+이노티아2(KTF)의 일반 CASH 메뉴에 들어갈 때 남아 있던 옛 요금·서버 연결 안내를 생략했습니다. 처음 열거나 다시 들어갈 때 원래 아이템 목록으로 바로 이동합니다.
+
+- 배포 채널: Google Play 비공개 테스트 Alpha
+- 앱 버전 / 빌드 번호: 0.1.30 / 31
+- 심사 요청일: 2026년 9월 15일 (한국 시간)
+- 상태: 심사 요청 완료 · Play 제공 대기. 실제 제공이 확인된 버전과는 구분합니다.
+
+### 개선 및 수정
+
+- 이노티아2(KTF): 일반 CASH 메뉴의 오래된 요금한도·서버 동의 안내를 생략해 아이템 목록으로 바로 진입합니다.
+- 두 품목의 무료 확인창, 기본 ‘아니오’ 선택과 취소 동작은 유지합니다. 부활의 기도문·강화세트의 지급 및 저장 방식도 그대로입니다.
+- 기존 게임 ZIP과 저장을 이어서 사용합니다. 게임 파일을 다시 받을 필요는 없습니다.
+
+### 알려진 문제
+
+일반 CASH 메뉴의 복원 범위는 부활의 기도문·강화세트 두 품목입니다. 과거 서버의 전체 상품 목록이나 별도 전멸 후 부활 구매가 모두 복원된 것은 아닙니다. 일부 게임의 소리 끊김·재생 끝부분과 장시간 동작은 계속 확인 중입니다. 지원 판정 파일 수는 기존 12개로 유지합니다.
+
+### 업데이트 안내
+
+공식 설치와 업데이트는 [Google Play](https://play.google.com/store/apps/details?id=com.valiostudio.wipix)에서 제공합니다. [테스트 참여 안내](https://github.com/hun99999/wipi-x-releases/blob/main/docs/TESTING.md)와 [문제 제보](https://github.com/hun99999/wipi-x-releases/issues)를 참고해 주세요.
+
+### English
+
+Inotia 2 (KTF) now skips obsolete charge and server-consent notices when opening the ordinary CASH menu. First and repeat visits go directly to the original item list.
+
+- Channel: Google Play closed testing, Alpha
+- Version / build: 0.1.30 / 31
+- Submitted for review: September 15, 2026 (KST)
+- Status: Submitted for review; awaiting Play availability. Submission is distinct from confirmed availability.
+
+The free confirmation dialog, default No option and cancellation remain available. The two restored items use the existing grant and save behavior. Existing game ZIPs and saves remain compatible; game files do not need to be downloaded again.
+
+Restoration covers the two ordinary CASH items, not the entire historical server catalogue or the separate party-wipe revival purchase. Audio interruptions, playback tails and longer sessions in some games remain under investigation. The existing twelve Supported game files remain unchanged.
+
+Install and update through [Google Play](https://play.google.com/store/apps/details?id=com.valiostudio.wipix). See [testing instructions](https://github.com/hun99999/wipi-x-releases/blob/main/docs/TESTING.md) and [report issues](https://github.com/hun99999/wipi-x-releases/issues).
+
 ## WIPI-X 0.1.29 — 이노티아2 캐시 아이템 복원
 
 이노티아 연대기2 KTF의 일반 CASH 메뉴에서 두 품목을 무료로 받을 수 있도록 복원한 Alpha 업데이트입니다.

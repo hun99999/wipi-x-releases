@@ -10,7 +10,7 @@ WIPI-X는 KTF·LGT WIPI 게임 파일을 Android에서 실행하는 오프라인
 
 [공식 홈페이지](https://wipix.valiostudio.com/) · [테스트 참여 안내](docs/TESTING.md) · [릴리즈 노트](https://github.com/hun99999/wipi-x-releases/releases) · [게임 카탈로그](https://wipix.valiostudio.com/ko/games/) · [문제 제보](https://github.com/hun99999/wipi-x-releases/issues/new/choose)
 
-> **최신 기록 · 0.1.29 Alpha / Play 제공 중** — [WIPI-X 0.1.29 — 이노티아2 캐시 아이템 복원](https://github.com/hun99999/wipi-x-releases/releases/tag/v0.1.29) · [전체 릴리즈 보기](https://github.com/hun99999/wipi-x-releases/releases)
+> **최신 기록 · 0.1.30 Alpha / Play 제공 대기** — [WIPI-X 0.1.30 — 이노티아2 캐시 메뉴 진입 개선](https://github.com/hun99999/wipi-x-releases/releases/tag/v0.1.30) · [전체 릴리즈 보기](https://github.com/hun99999/wipi-x-releases/releases)
 
 ## 플레이 화면
 
@@ -24,7 +24,7 @@ WIPI-X는 KTF·LGT WIPI 게임 파일을 Android에서 실행하는 오프라인
 
 ## 앱 받기
 
-**WIPI-X 앱의 공식 설치와 업데이트는 Google Play에서만 제공합니다.** **0.1.29 (Alpha)**는 2026년 9월 15일 오후 6:37부터 Google Play 알파 테스터에게 제공 중입니다. Play Console의 제공 상태를 확인했습니다. 기존 앱을 삭제하지 않고 Google Play에서 업데이트할 수 있습니다.
+**WIPI-X 앱의 공식 설치와 업데이트는 Google Play에서만 제공합니다.** **0.1.30 (Alpha)**는 심사 요청을 완료했으며 Play 제공을 기다리고 있습니다. 현재 제공이 확인된 버전은 **0.1.29**입니다. 기존 앱을 삭제하지 않고 Google Play에서 업데이트할 수 있습니다.
 
 [WIPI-X 테스트 그룹](https://groups.google.com/g/wipi-x-testers/about)에 가입한 뒤, **같은 Google 계정**으로 [Google Play 테스트 참여](https://play.google.com/apps/testing/com.valiostudio.wipix)를 신청하고 설치하세요. [참여 순서와 대상 기기](docs/TESTING.md), [버전별 릴리즈 노트](https://github.com/hun99999/wipi-x-releases/releases)를 확인할 수 있습니다.
 
@@ -36,14 +36,14 @@ WIPI-X는 KTF·LGT WIPI 게임 파일을 Android에서 실행하는 오프라인
 - **피쳐폰 키패드:** 클래식·플랫 디자인과 가로·세로 배치를 선택하고, 가상 화면에서 오버레이 위치와 크기를 직접 조정합니다. 게임 속 문자 입력은 천지인 한글과 영문 반복 누르기로 제공합니다.
 - **레트로 스킨:** WIPI-X 16-bit 실버와 지원되는 Delta 스킨 가져오기, 기존 공통·게임별 매핑 공유를 지원합니다. 피처폰 십자키 접기도 제공합니다.
 - **새 스킨과 기록:** 피처폰 3종·레트로 그래파이트, 게임별 누적·최근 7일 그래프와 아이콘·제목이 있는 기록을 추가했습니다. 진동 수정과 불투명도 0%도 지원합니다.
-- **0.1.29 이노티아2 캐시 복원:** 일반 CASH 메뉴의 부활의 기도문·강화세트 두 품목을 무료로 받을 수 있습니다. 취소·지급·저장 후 앱 재실행 복구를 확인했습니다. 기존 지원 판정 파일은 12개로 유지합니다.
+- **0.1.30 이노티아2 캐시 메뉴 진입 개선:** 첫 진입과 반복 진입에서 옛 요금·서버 안내를 생략하고 아이템 목록으로 바로 이동합니다. 무료 확인·기본 아니오·취소와 기존 두 품목의 지급·저장을 유지합니다. 지원 판정 파일은 12개입니다.
 - **게임패드:** 레트로·Xbox·PlayStation 배열과 공통·게임별 키매핑을 지원합니다. 매핑 화면에서 버튼을 누르면 해당 위치가 켜집니다.
 - **화면과 속도:** 화면 비율을 유지한 확대, 0.5–4배속, 상태바·키패드 표시와 진동을 설정합니다. 라이트·다크·시스템 테마를 선택할 수 있습니다.
 - **라이브러리:** 검색·통신사 필터·즉시 정렬·그리드/목록으로 게임을 찾습니다. 게임을 길게 눌러 즐겨찾기와 저장을 관리합니다.
 - **더보기와 업데이트:** 설정·사용 안내·GitHub·문제 제보로 이동하고 새 버전을 확인합니다. 앱 시작 시 업데이트를 안내하며 건너뛴 버전은 자동으로 다시 안내하지 않습니다.
 - **저장 백업:** 게임 안에서 저장하고 정상 종료한 뒤, 게임별 저장을 내보내거나 같은 게임에 다시 가져옵니다.
 
-게임은 오프라인으로 실행하며 로그인·광고·인앱 결제 없이 동작합니다. 앱 시작과 수동 업데이트 확인에는 GitHub 공개 릴리스 조회를 위한 인터넷 연결을 사용합니다. 기기와 게임에 따라 실행·저장 범위와 배속 성능은 다를 수 있습니다. [0.1.29 변경 안내](docs/UPDATES.md)에서 이번 테스트 버전의 내용을 확인할 수 있습니다.
+게임은 오프라인으로 실행하며 로그인·광고·인앱 결제 없이 동작합니다. 앱 시작과 수동 업데이트 확인에는 GitHub 공개 릴리스 조회를 위한 인터넷 연결을 사용합니다. 기기와 게임에 따라 실행·저장 범위와 배속 성능은 다를 수 있습니다. [0.1.30 변경 안내](docs/UPDATES.md)에서 이번 테스트 버전의 내용을 확인할 수 있습니다.
 
 ## 라이브러리와 설정
 
@@ -78,7 +78,7 @@ WIPI-X는 KTF·LGT WIPI 게임 파일을 Android에서 실행하는 오프라인
 
 ## 호환성
 
-1차 테스트 대상은 **31개(KTF 18개 · LGT 13개)**입니다. 기존 28개에 **리듬스타(KTF), 2010프로야구(LGT), 템페스트(LGT)**를 포함했습니다. 0.1.29에서는 2010슈퍼사커(LGT)·2010프로야구(LGT)·메이플스토리 도적편(KTF)·레전드오브마스터(LGT)·붕어빵타이쿤3(KTF)·이노티아 연대기(KTF)·검은방2(LGT)·오셔너스(LGT)·와일드프론티어1(LGT)·테일즈위버 이스핀편(LGT)·막시민편(LGT)·루시안칼츠편(LGT)의 정확한 검증 파일 12개를 지원됨으로 표시합니다. 그 밖의 최종 판정은 대기 중이며, 초기 대상 선정이나 일부 구간의 성공이 모든 기기·전체 진행을 보증하지는 않습니다. 호환 결과는 통신사, 정확한 게임 파일, WIPI-X 버전을 기준으로 안내합니다.
+1차 테스트 대상은 **31개(KTF 18개 · LGT 13개)**입니다. 기존 28개에 **리듬스타(KTF), 2010프로야구(LGT), 템페스트(LGT)**를 포함했습니다. 0.1.30에서는 2010슈퍼사커(LGT)·2010프로야구(LGT)·메이플스토리 도적편(KTF)·레전드오브마스터(LGT)·붕어빵타이쿤3(KTF)·이노티아 연대기(KTF)·검은방2(LGT)·오셔너스(LGT)·와일드프론티어1(LGT)·테일즈위버 이스핀편(LGT)·막시민편(LGT)·루시안칼츠편(LGT)의 정확한 검증 파일 12개를 지원됨으로 표시합니다. 그 밖의 최종 판정은 대기 중이며, 초기 대상 선정이나 일부 구간의 성공이 모든 기기·전체 진행을 보증하지는 않습니다. 호환 결과는 통신사, 정확한 게임 파일, WIPI-X 버전을 기준으로 안내합니다.
 
 1차를 시작으로 확인한 게임을 계속 늘립니다. 홈페이지의 전체 게임 카탈로그는 게임을 찾아보기 위한 자료이며, 카탈로그 전체가 지원 확정 목록은 아닙니다. [1차 31개 전체 목록](docs/COMPATIBILITY.md)에서 통신사별 대상을 확인하세요.
 
@@ -94,14 +94,14 @@ WIPI-X는 KTF·LGT WIPI 게임 파일을 Android에서 실행하는 오프라인
 
 WIPI-X is an offline Android emulator for classic KTF and LGT WIPI feature-phone games, made by Valio Studio. It requires Android 8.0 or later and processes game files and saves on the device, without login, ads, or in-app purchases.
 
-The app is distributed **exclusively through Google Play**. **0.1.29 (Alpha)** is available to Google Play Alpha testers as of September 15, 2026 at 18:37 KST, confirmed in Play Console. Join the testers group and opt in using the same Google account. See the [testing guide](docs/TESTING.md#english) and [release notes](https://github.com/hun99999/wipi-x-releases/releases).
+The app is distributed **exclusively through Google Play**. **0.1.30 (Alpha)** has been submitted for review and is awaiting Play availability. **0.1.29** is currently confirmed available. Join the testers group and opt in using the same Google account. See the [testing guide](docs/TESTING.md#english) and [release notes](https://github.com/hun99999/wipi-x-releases/releases).
 
-Version 0.1.29 restores two free items in the ordinary Inotia 2 CASH menu, with cancellation, item grants and save recovery checked. The existing twelve Supported game files and game ZIPs remain unchanged.
+Version 0.1.30 opens the ordinary Inotia 2 CASH item list directly, skipping obsolete charge and server notices on first and repeat visits. Free confirmation, cancellation, the two restored items, existing saves and twelve Supported game files remain available.
 
 A fresh app launch or a manual check fetches public GitHub release information. Updates open in Google Play; skipped versions are not announced again automatically. Games remain offline.
 
 Features include compact adaptive screens with pixel-style library/navigation, immediate sorting and grid/list switching, nested settings under More, direct touch overlay editing, folder scanning, classic and flat keypads, portrait and landscape layouts, Korean Cheonjiin and multi-tap English input, configurable gamepad mappings, light and dark themes, playback speed settings, and per-game save export/import. The first three images are user-provided gameplay screenshots with the game areas mosaicked. The library, settings and gamepad screenshots were captured from the 0.1.0 test app on an Android tablet.
 
-This repository contains project information, usage guides, compatibility notes, and user support. It does not distribute app source code, APK/AAB packages, or game files. The initial roster contains **31 entries (18 KTF and 13 LGT)**, including Rhythm Star, 2010 Pro Baseball, and Tempest. Version 0.1.29 marks the exact verified files for 2010 Super Soccer (LGT), 2010 Pro Baseball (LGT), MapleStory: Thief Edition (KTF), Legend of Master (LGT), Bungeoppang Tycoon 3 (KTF), Inotia Chronicles (KTF), Black Room 2 (LGT), Oceanus (LGT), Wild Frontier 1 (LGT), and TalesWeaver: Ispin, Maximin and Lucian (LGT) as Supported. Other final decisions remain pending, and the roster will expand as more games are checked.
+This repository contains project information, usage guides, compatibility notes, and user support. It does not distribute app source code, APK/AAB packages, or game files. The initial roster contains **31 entries (18 KTF and 13 LGT)**, including Rhythm Star, 2010 Pro Baseball, and Tempest. Version 0.1.30 marks the exact verified files for 2010 Super Soccer (LGT), 2010 Pro Baseball (LGT), MapleStory: Thief Edition (KTF), Legend of Master (LGT), Bungeoppang Tycoon 3 (KTF), Inotia Chronicles (KTF), Black Room 2 (LGT), Oceanus (LGT), Wild Frontier 1 (LGT), and TalesWeaver: Ispin, Maximin and Lucian (LGT) as Supported. Other final decisions remain pending, and the roster will expand as more games are checked.
 
 Questions and reports in Korean or English are welcome in [Issues](https://github.com/hun99999/wipi-x-releases/issues/new/choose).
