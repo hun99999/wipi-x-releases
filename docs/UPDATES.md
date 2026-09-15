@@ -11,7 +11,7 @@ Google Play에 심사 요청하거나 배포한 버전의 변경사항을 최신
 - 배포 채널: Google Play 비공개 테스트 Alpha
 - 앱 버전 / 빌드 번호: 0.1.32 / 33
 - 심사 요청일: 2026년 9월 15일 (한국 시간)
-- 상태: 심사 요청 완료 · Play 제공 대기. 실제 제공이 확인된 버전과는 구분합니다.
+- 상태: Google Play 알파 테스터에게 제공 중 · 전체 출시. Play Console의 최근 업데이트 시각은 2026-09-15 오후 9:20 (한국 시간)입니다.
 
 ### 개선 및 수정
 
@@ -34,7 +34,7 @@ Reduced the work needed to prepare some SMAF sounds for playback. The natural-le
 - Channel: Google Play closed testing, Alpha
 - Version / build: 0.1.32 / 33
 - Submitted for review: September 15, 2026 (KST)
-- Status: Submitted for review; awaiting Play availability. Submission is distinct from confirmed availability.
+- Status: Available to Google Play Alpha testers; fully rolled out. Play Console lists the latest update as September 15, 2026 at 21:20 KST.
 
 Existing sound synthesis, playback speed, game progress and saving behavior are preserved. Existing game ZIPs, saves and settings remain compatible; game files do not need to be downloaded again.
 
