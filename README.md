@@ -24,7 +24,7 @@ WIPI-X는 KTF·LGT WIPI 게임 파일을 Android에서 실행하는 오프라인
 
 ## 앱 받기
 
-**WIPI-X 앱의 공식 설치와 업데이트는 Google Play에서만 제공합니다.** **0.1.31 (Alpha)**는 심사 요청을 완료했으며 Play 제공을 기다리고 있습니다. 현재 제공이 확인된 버전은 **0.1.29**입니다. 기존 앱을 삭제하지 않고 Google Play에서 업데이트할 수 있습니다.
+**WIPI-X 앱의 공식 설치와 업데이트는 Google Play에서만 제공합니다.** **0.1.31 (Alpha)**는 심사 요청을 완료했으며 Play 제공을 기다리고 있습니다. 현재 제공이 확인된 버전은 **0.1.30**입니다. 기존 앱을 삭제하지 않고 Google Play에서 업데이트할 수 있습니다.
 
 [WIPI-X 테스트 그룹](https://groups.google.com/g/wipi-x-testers/about)에 가입한 뒤, **같은 Google 계정**으로 [Google Play 테스트 참여](https://play.google.com/apps/testing/com.valiostudio.wipix)를 신청하고 설치하세요. [참여 순서와 대상 기기](docs/TESTING.md), [버전별 릴리즈 노트](https://github.com/hun99999/wipi-x-releases/releases)를 확인할 수 있습니다.
 
@@ -94,7 +94,7 @@ WIPI-X는 KTF·LGT WIPI 게임 파일을 Android에서 실행하는 오프라인
 
 WIPI-X is an offline Android emulator for classic KTF and LGT WIPI feature-phone games, made by Valio Studio. It requires Android 8.0 or later and processes game files and saves on the device, without login, ads, or in-app purchases.
 
-The app is distributed **exclusively through Google Play**. **0.1.31 (Alpha)** has been submitted for review and is awaiting Play availability. **0.1.29** is currently confirmed available. Join the testers group and opt in using the same Google account. See the [testing guide](docs/TESTING.md#english) and [release notes](https://github.com/hun99999/wipi-x-releases/releases).
+The app is distributed **exclusively through Google Play**. **0.1.31 (Alpha)** has been submitted for review and is awaiting Play availability. **0.1.30** is currently confirmed available. Join the testers group and opt in using the same Google account. See the [testing guide](docs/TESTING.md#english) and [release notes](https://github.com/hun99999/wipi-x-releases/releases).
 
 Version 0.1.31 fixes playback of the final portion of short sounds, with the Inotia 2 title ending and a short MiniGame Paradise 2 round checked. Existing saves, settings, game ZIPs and twelve Supported game files remain compatible.
 
