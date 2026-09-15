@@ -11,7 +11,7 @@ Google Play에 심사 요청하거나 배포한 버전의 변경사항을 최신
 배포 채널: Alpha
 앱 버전/빌드: 0.1.22/code23
 심사 요청일: 2026-09-15 (한국 시간)
-배포 상태: 심사 전송 요청 완료 · Play 자동 검사 진행 중 · 제공 대기. 현재 제공이 확인된 버전은 0.1.11입니다.
+배포 상태: Google Play 알파 테스터에게 제공 중 · 전체 출시. Play Console의 최근 업데이트 시각은 2026-09-15 오전 9:13 (한국 시간)입니다.
 
 ### 개선 및 수정
 
@@ -41,7 +41,7 @@ This Alpha update combines game compatibility fixes, save protection, touch inpu
 Channel: Alpha
 Version/build: 0.1.22/code23
 Submitted for review: September 15, 2026 (Korea time).
-Status: Submission requested; Play automated checks are running and availability is pending. Version 0.1.11 is currently confirmed available.
+Status: Available to Google Play Alpha testers; fully rolled out. Play Console lists the latest update as September 15, 2026 at 09:13 KST.
 
 ### Improvements and fixes
 
