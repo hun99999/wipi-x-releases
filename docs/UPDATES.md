@@ -4,6 +4,44 @@
 
 Google Play에 심사 요청하거나 배포한 버전의 변경사항을 최신순으로 기록하며, 각 버전의 제공 상태를 구분합니다. 알파·베타 기록도 정식 출시 후 계속 보존합니다.
 
+## WIPI-X 0.1.32 — 일부 음원의 준비 처리 개선
+
+일부 SMAF 음원을 처음 준비할 때 필요한 계산을 줄였습니다. 음원의 자연스러운 종료 시점을 찾는 처리를 개선했으며, 기존 소리의 길이와 파형은 유지합니다.
+
+- 배포 채널: Google Play 비공개 테스트 Alpha
+- 앱 버전 / 빌드 번호: 0.1.32 / 33
+- 심사 요청일: 2026년 9월 15일 (한국 시간)
+- 상태: 심사 요청 완료 · Play 제공 대기. 실제 제공이 확인된 버전과는 구분합니다.
+
+### 개선 및 수정
+
+- 일부 SMAF 음원의 재생 준비 과정에서 반복 계산을 줄였습니다.
+- 기존 소리 합성·재생 속도·게임 진행 및 저장 방식은 유지합니다.
+- 기존 게임 ZIP·저장·설정을 이어서 사용할 수 있습니다. 게임 파일을 다시 받을 필요는 없습니다.
+
+### 알려진 문제
+
+이번 수정은 음원 준비 처리에 대한 개선입니다. 미니게임천국2·테라·이노티아2·리듬스타 등에서 재생 중 발생하는 일부 끊김은 계속 확인 중입니다. 모든 게임의 소리 문제를 해결한 버전은 아니며, 지원 판정 파일 수는 기존 12개로 유지합니다.
+
+### 업데이트 안내
+
+공식 설치와 업데이트는 [Google Play](https://play.google.com/store/apps/details?id=com.valiostudio.wipix)에서 제공합니다. [테스트 참여 안내](https://github.com/hun99999/wipi-x-releases/blob/main/docs/TESTING.md)와 [문제 제보](https://github.com/hun99999/wipi-x-releases/issues)를 참고해 주세요.
+
+### English
+
+Reduced the work needed to prepare some SMAF sounds for playback. The natural-length calculation is more efficient while preserving sound duration and PCM output.
+
+- Channel: Google Play closed testing, Alpha
+- Version / build: 0.1.32 / 33
+- Submitted for review: September 15, 2026 (KST)
+- Status: Submitted for review; awaiting Play availability. Submission is distinct from confirmed availability.
+
+Existing sound synthesis, playback speed, game progress and saving behavior are preserved. Existing game ZIPs, saves and settings remain compatible; game files do not need to be downloaded again.
+
+This update improves sound preparation. Some interruptions during playback in MiniGame Paradise 2, Tera, Inotia 2 and Rhythm Star remain under investigation. It does not resolve every audio issue. The existing twelve Supported game files remain unchanged.
+
+Install and update through [Google Play](https://play.google.com/store/apps/details?id=com.valiostudio.wipix). See [testing instructions](https://github.com/hun99999/wipi-x-releases/blob/main/docs/TESTING.md) and [report issues](https://github.com/hun99999/wipi-x-releases/issues).
+
 ## WIPI-X 0.1.31 — 짧은 소리의 끝부분 재생 개선
 
 짧게 재생되는 소리의 마지막 부분이 남아 끝까지 출력되지 않던 문제를 수정했습니다. 이노티아2(KTF)의 타이틀에서 마지막 소리가 실제로 출력되는 것을 확인했습니다.
