@@ -11,7 +11,7 @@ Google Play에 심사 요청하거나 배포한 버전의 변경사항을 최신
 - 배포 채널: Google Play 비공개 테스트 Alpha
 - 앱 버전 / 빌드 번호: 0.1.31 / 32
 - 심사 요청일: 2026년 9월 15일 (한국 시간)
-- 상태: 심사 요청 완료 · Play 제공 대기. 실제 제공이 확인된 버전과는 구분합니다.
+- 상태: Google Play 알파 테스터에게 제공 중 · 전체 출시. Play Console의 최근 업데이트 시각은 2026-09-15 오후 8:15 (한국 시간)입니다.
 
 ### 개선 및 수정
 
@@ -34,7 +34,7 @@ Fixed an issue that could leave the final portion of a short sound unplayed afte
 - Channel: Google Play closed testing, Alpha
 - Version / build: 0.1.31 / 32
 - Submitted for review: September 15, 2026 (KST)
-- Status: Submitted for review; awaiting Play availability. Submission is distinct from confirmed availability.
+- Status: Available to Google Play Alpha testers; fully rolled out. Play Console lists the latest update as September 15, 2026 at 20:15 KST.
 
 Existing game ZIPs, saves and settings remain compatible. Game files do not need to be downloaded again. The existing twelve Supported game files remain unchanged.
 
