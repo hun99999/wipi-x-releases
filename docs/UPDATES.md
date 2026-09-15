@@ -4,6 +4,60 @@
 
 Google Play에 심사 요청하거나 배포한 버전의 변경사항을 최신순으로 기록하며, 각 버전의 제공 상태를 구분합니다. 알파·베타 기록도 정식 출시 후 계속 보존합니다.
 
+## WIPI-X 0.1.28 — 게임 호환성과 실행 성능 개선
+
+0.1.22 이후의 게임 호환성과 실행 성능 개선을 묶은 Alpha 업데이트입니다.
+
+배포 채널: Alpha
+앱 버전/빌드: 0.1.28/code29
+심사 요청일: 2026-09-15 (한국 시간)
+배포 상태: 심사 요청 완료 · 제공 대기. 현재 제공이 확인된 버전은 0.1.22입니다.
+
+### 개선 및 수정
+
+- **지원 게임 추가:** 테일즈위버 이스핀·막시민·루시안칼츠편 LGT의 정확한 검증 파일을 앱에서 ‘지원됨’으로 표시합니다. 기존 9개를 포함해 지원 판정 파일은 12개입니다.
+- **미니게임천국2:** 화면 갱신이 요청한 간격보다 늦어지던 타이머 처리를 수정했습니다. 대표 라운드에서 화면 변화와 조작, 최고 기록의 저장·앱 재실행 복구를 확인했습니다.
+- **실행 성능:** 일부 게임에서 반복되는 처리 비용을 줄이고, 짧은 처리 지연 뒤 게임 시간 진행을 회복하도록 보완했습니다. 성능 차이는 게임과 기기에 따라 다릅니다.
+- **이노티아 연대기2 KTF:** 시작과 새 게임 진입을 막던 호환 문제를 수정했습니다. 도입부·전투·주요 메뉴와 첫 저장 후 앱을 완전히 종료하고 다시 실행했을 때의 진행 복구를 확인했습니다. 이 게임의 최종 지원 판정은 아직 검증 중입니다.
+
+### 확인 범위와 알려진 문제
+
+정확한 검증 파일을 대상으로 대표 기능·조작·화면과 저장 복구를 확인했습니다. 모든 Android 기기나 다른 판본, 후반·엔딩까지 확인한 결과는 아닙니다.
+
+테라의 타이틀 소리 끊김과 미니게임천국2의 일부 짧은 소리 지연은 남아 있습니다. 이노티아2 CASH 메뉴의 오프라인 연결 실패와 일부 소리 확인도 후속 작업입니다. 와일드프론티어2의 최종 소리 판정, 기존 리듬스타의 소리 간격·놈ZERO의 배경음 겹침 제보도 해결 완료로 처리하지 않았습니다.
+
+기존 앱을 삭제하지 않고 Google Play에서 업데이트해 주세요. 게임 ZIP을 다시 받을 필요는 없으며 앱에는 게임 파일이 포함되지 않습니다. 새 버전 안내가 Play 제공보다 먼저 보일 수 있습니다.
+
+테스트 참여: https://play.google.com/apps/testing/com.valiostudio.wipix
+릴리즈 기록: https://github.com/hun99999/wipi-x-releases/releases
+
+### English
+
+This Alpha update combines game compatibility and execution performance improvements made since 0.1.22.
+
+Channel: Alpha
+Version/build: 0.1.28/code29
+Submitted for review: September 15, 2026 (Korea time).
+Status: Submitted for review; availability pending. Version 0.1.22 is currently confirmed available.
+
+### Improvements and fixes
+
+- **Supported games:** The exact verified LGT files for TalesWeaver: Ispin, Maximin and Lucian now appear as Supported. Together with the previous nine, twelve game files have this status.
+- **MiniGame Paradise 2:** Fixed timer handling that delayed screen updates beyond the requested interval. Representative rounds covered screen changes, controls, and best-score recovery after fully restarting the app.
+- **Execution performance:** Reduced recurring processing costs in some games and improved game-time recovery after brief processing delays. Results vary by game and device.
+- **Inotia Chronicles 2 (KTF):** Fixed compatibility issues blocking startup and new-game entry. Checked the prologue, battles, main menus, and progress recovery after the first save and a full app restart. Final Supported status is still under verification.
+
+### Scope and known issues
+
+Checks cover representative features, controls, display and save recovery for exact game files. They do not certify every Android device, different editions, late-game content or endings.
+
+Title-screen audio stutter in Terra and some short audio delays in MiniGame Paradise 2 remain. The offline connection failure in Inotia 2's CASH menu and further audio checks are follow-up work. Wild Frontier 2 still awaits a final audio judgment; previously reported Rhythm Star audio gaps and overlapping music in Nom ZERO remain unresolved.
+
+Update through Google Play without uninstalling the existing app. Existing game ZIPs remain usable and no games are bundled. The in-app update notice may appear before Play offers the new version.
+
+Join testing: https://play.google.com/apps/testing/com.valiostudio.wipix
+Release history: https://github.com/hun99999/wipi-x-releases/releases
+
 ## WIPI-X 0.1.22 — 호환·저장·터치 조작 개선
 
 0.1.11 이후의 게임별 호환 수정과 저장 보호, 터치 조작·화면 배치 개선을 하나의 Alpha 업데이트로 제공합니다.
